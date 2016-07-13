@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>DataGuard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/JuanMa.css" />
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href="css/full-slider.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+
+<!----start-top-nav-script---->
+<script>
+$(function() {
+	var pull 		= $('#pull');
+	menu 		= $('nav ul');
+	menuHeight	= menu.height();
+	$(pull).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	$(window).resize(function(){
+		var w = $(window).width();
+		if(w > 320 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}
+	});
+});
+</script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+</script>
+</head>
+<body>
+	<!-- Menu1 -->
+	<div class="navbar  pdd1 navbar-inverse navbar-fixed-top" role="navigation" id="menudesk">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = 'index.html'"><img class="resize" src="images/logo_dataguard.png" />
+			</div>
+		</div>
+		<div class="collapse navbar-collapse pdd2">
+			<ul class="nav navbar-nav">
+				<li><a href="Company.html" class="Company_page">Company</a></li>
+			<div class="dropdown">
+				<li><a href="#imgservicios" class="dropbtn">Solutions</a> 
+					 <div class="dropdown-content">
+    					<a href="#outsourcing">Outsourcing</a>
+    					<a href="#hardware">Hardware</a>
+   						<a href="#identity">e-Identity</a>
+   						<a href="#factory">Factory</a>
+  					</div>
+				</li>
+			</div>
+				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
+				<li><a href="#contact" class="scroll">Contact Us</a> </li>
+			</ul>
+		</div>
+	</div>
+	<!-- fin-Menu1 -->
+	<!-- Menu2 -->
+	<div class="navbar  pdd1 navbar-inverse navbar-static-top" role="navigation" id="menusmart">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = '../index.html'"><img class="resize" src="images/logo_dataguard.png" /></div>
+		</div>
+		<div class="collapse navbar-collapse pdd3">
+			<ul class="nav navbar-nav">
+				<li><a href="Company.html" class="Company_page">Company</a></li>
+				<li><a href="#mrp" class="scroll">Solutions</a> </li>
+				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
+				<li><a href="#contact" class="scroll">Contact Us</a> </li>
+			</ul>
+		</div>
+	</div>
+	<!-- fin-Menu2 -->
+	<!--StartPortada-->
+	<header class="portada" style="background:#09435a;">
+		<div class="imgportada" style="background-image:url(images/img-1.jpg);">
+			<div class="espaciotop"></div>
+			<div class="logo-portada" style="background-image:url(images/img-2.png);"></div>
+			<div class="decoracion" style="background:#b8252b"></div>
+			<div class="subtitulo">
+				<h3 class="weare">We are a global company <b>specialized</b> in</h3>
+				<br>
+				<h1 class="portadaservices">IT Outsourcing <hr> IT Hardware <hr> Security and e-Identity <hr> Software Factory
+				</h1>
+			</div>
+		</div>
+	</header> 
+	<!--EndPortada-->
+	
+	<!-- seccion body-->
+
+	<!-- ResumenCompany -->
+	<div class="resumencompany">
+			<div class="col-md-8 resumencompany-info wow fadeInLeft">
+				<div class="resumencompany-head">
+					<h3>
+						We are a global company specialized in ensuring the<br>continuity of the IT operation of your business.
+
+						<hr>We are a company with 25 years of experience in the IT market. 
+						
+						<hr>We are located with successfull opeartions in Central America, the<br>Caribbean and, 
+						<br>recently, in the United States.
+					</h3>
+				</div>
+			</div>
+	</div>
+	<!-- OurServices -->
+	<img id="imgservicios" src="images/Our_Services.jpg">
+	<!-- Outsourcing -->
+	<div id="outsourcing" class="resumenoutsrc">
+		<div class="outsrc-info">
+			<div class="outsrc-head">
+				<h3>Outsourcing</h3>
+				<br>
+				<p>One of our business lines is the outsourcing service that includes Staffing of IT personnel complemented with  Head Hunting designed to help you aquire the best of the best. Under this service we also offer Software Factory services.
+				</p>
+			</div>
+		</div>
+		<div class="outsrc-img">
+			<img src="images/outsourcing-portada.png">
+		</div>
+	</div>
+	<!-- Hardware -->
+	<div id="hardware" class="resumenhard">
+		<div class="hard-info">
+			<div class="hard-head">
+				<h3>Hardware</h3>
+				<br>
+				<p>As a result of our strategic alliances we can offer the best solutions in cloud services, virtual servers and business continuity (DRP). Additionally we offer new, refurbished and used IT parts for sale.
+				</p>
+			</div>
+		</div>
+		<div class="hard-img">
+			<img src="images/hardware-portada.png">
+		</div>
+	</div>
+	<!-- Identity -->
+	<div id="identity" class="resumenidentity">
+		<div class="outsrc-info">
+			<div class="outsrc-head">
+				<h3>e-Identity & Security</h3>
+				<br>
+				<p>Personal security system that protects the biometric capture information according to the different characteristics of an individual (Fingerprints, iris, facial patterns and signature) to generate a single identification document.
+				</p>
+			</div>
+		</div>
+		<div class="outsrc-img">
+			<img src="images/identity-portada.png">
+		</div>
+	</div>
+	<!-- SoftwareFactory -->
+	<div id="factory" class="resumenfactory">
+		<div class="hard-info">
+			<div class="hard-head">
+				<h3>Software Factory</h3>
+				<br>
+				<p>One of DataGuard’s most important business characteristics is the custom-made application development, based on your needs and preferences we adapt the system to the functions you´re needing and the design you prefer.
+				</p>
+			</div>
+		</div>
+		<div class="hard-img">
+			<img src="images/hardware-portada.png">
+		</div>
+	</div>
+
+	<!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide" data-ride="carousel" style="background:#09435a;">
+        
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url(views/img/12.jpg);">
+                </div>         
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+  <script type="text/javascript">
+$('.carousel').carousel({
+  interval: 5000
+})
+</script> 
+	
+	<!-- contacto -->
+			<div id="contact" class="contact">
+				<div class="container">
+				<div class="contact-grids">
+					<div class="col-md-6">
+						<div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
+							<h3>Contact Us</h3>
+							<label>We work IT with you everywhere.</label>
+							<div class="contact-left-grids">
+								<div class="col-md-6">
+									<div class="contact-left-grid">
+										<h2>USA</h2>
+										<p>16444 SW 61 WAY
+										<br>MIAMI, FL 33193
+
+										<br>
+										<br>T: (305) 910-1614
+										<br>F:(305) 385-0513</p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="contact-right-grid">
+										<p><span class="c-msg"> </span><a href="#">info@dataguardgroup.com</a></p>
+										<p><span class="c-face"></span><a href="#">facebook.com/Dataguardgroup</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="contactregion">
+								<div class="guatemala">
+									<p>
+										GUATEMALA 
+										<br>4ª. Avenida 7-83, 
+										<br>Zona 10, Plaza <br>Ciudad Vieja, 2do. <br>Nivel 
+									</p>
+								</div>
+								<div class="costarica">
+									<p>COSTA RICA
+										<br>750 mts Oeste 
+										<br>Restaurante Tony 
+										<br>Romas Escazu
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="contact-right wow fadeInLeft" data-wow-delay="0.4s">
+							<form>
+								<input type="text" class="text" value="Ingrese su Nombre Completo" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ingrese su Nombre Completo';}">
+					 			<input type="text" class="text" value="Ingrese su Direcci&oacute;n de Correo Electr&oacute;nico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ingrese su Direcci&oacute;n de Correo Electr&oacute;nico';}">
+					 	 		<textarea value="Ingrese su mensaje" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ingrese su Mensaje';}">Ingrese su Mensaje</textarea>
+								<input class="wow shake" data-wow-delay="0.3s" type="submit" value="Enviar" />
+							</form>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!--- derechos_reservados_angel_cotto -->
+				<div class="copy-right text-center">
+					<p><a href="#">DataGuard IT</a></p>
+					<script type="text/javascript">
+					$(document).ready(function() {
+
+								 		$().UItoTop({ easingType: 'easeOutQuart' });
+
+								 	});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+
+			</div>
+			</div>
+		</div>
+
+
+	</body>
+</html>
+
