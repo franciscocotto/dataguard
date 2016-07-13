@@ -95,7 +95,7 @@ img.resize{
 
 .imgportada {
   margin: auto;
-  height: 730px;
+  height: 750px;
 }
 
 .espaciotop {
@@ -630,4 +630,26 @@ footer {
 }
 .contact-right input[type="submit"]:hover{
   background:#cc2229;
+}
+
+/*---Página Company---*/
+.portadacompany {
+  margin: auto;
+}
+
+.imgportadacompany {
+  margin: auto;
+  height: 450px;
+}
+
+.titulocompany {
+    margin: auto;
+    padding-top: 300px;
+    padding-left: 150px;
+}
+
+.titulocompany h3{
+  font-weight: 4em;
+  color: white;
+  font-size: 5em;
 }
