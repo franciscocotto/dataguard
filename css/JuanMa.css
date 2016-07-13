@@ -477,12 +477,12 @@ footer {
   background-color: #e7e7e7;
 }
 .contact-left h3{
-  color:#7d7878;
+  color:#000000;
   font-weight:900;
-  font-size:2.8em;
+  font-size:2.5em;
   text-transform:uppercase;
   margin:0;
-  padding:0 0 0.4em 0;
+  padding:0 0 0 0;
 }
 .contact-left label{
   font-weight: 400;
@@ -565,7 +565,7 @@ footer {
   text-decoration:none;
 }
 .contact-right-grid p a:hover{
-  color:#35C2F8;
+  color:#242c57;
 }
 .contact-right-grid p span{
   width: 28px;
