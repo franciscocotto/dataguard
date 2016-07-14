@@ -1,3 +1,6 @@
+.w100{
+width:100% !important;
+}
 .cursorr{
   display: inline-block;
 }
@@ -469,9 +472,11 @@ footer {
   .carousel-indicators {
     bottom: 20px;
   }
-
+  }
 /*---- contact ----*/
 .contact{
+    width: 100%;
+    float: left;
   border-top: 1px solid #c3c2c1;
   padding: 5em 0 0;
   background-color: #e7e7e7;
@@ -655,14 +660,19 @@ footer {
 }
 
 .infoback {
-  height: 1200px;
+float:left;
+ /* height: 1200px;*/
   width: 100%;
 }
 
 .ourstory {
-  width: 65%;
-  margin: auto;
+  width: 100%;
   padding-top: 35px;
+}
+
+.ourstory div {
+  width:65%;
+  margin:auto;
 }
 
 .ourstory h3{
@@ -677,42 +687,76 @@ footer {
 
 .left-info-company {
   float: left;
-  display: inline-block;
+  display: block;
   padding-top: 50px;
-  width: 35%;
-  height: 75%;
-  margin-left: 15%;
+  width: 50%; 
 }
 
 .imgmision {
-  float: right;
-  padding-right: 20px;
+  width:100%;
+  float: left;
   display: inline-block;
 }
 
+.imgmision img{
+         margin: 0 0 0 17% !important;
+         background-size: cover;
+         background-position: center;
+}
+
 .misioninfo {
+width:100%;
   display: inline-block;
   float: left;
 }
 
 .misioninfo h3{
+text-align:center;
   color: #454545;
   font-weight: 600;
   font-size: 2.3em;
 }
 
+.misioninfo p{
+text-align:center;
+  color: #454545;
+}
+
 .right-info-company {
-  float: left;
+  float: right;
   display: block;
   padding-top: 50px;
   width: 50%; 
 }
 
 .imgvision {
+  width:100%;
   float: left;
-  padding-left: 20px;
+  display: inline-block;
 }
 
+.imgvision img{
+         margin: 0 0 0 5% !important;
+         background-size: cover;
+         background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+.left-info-company {
+  float: left;
+  display: block;
+  padding-top: 50px;
+  width: 100% !important;  
+}
+
+
+.right-info-company {
+  float: right;
+  display: block;
+  padding-top: 50px;
+  width: 100% !important; 
+}
+}
 .visioninfo h3{
   display: block;
   float: left;
