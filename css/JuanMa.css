@@ -473,12 +473,13 @@ footer {
     bottom: 20px;
   }
   }
+
 /*---- contact ----*/
 .contact{
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
   border-top: 1px solid #c3c2c1;
-  padding: 5em 0 0;
+  padding: 50px 0 50px 0;
   background-color: #e7e7e7;
 }
 .contact-left h3{
@@ -635,6 +636,14 @@ footer {
 }
 .contact-right input[type="submit"]:hover{
   background:#cc2229;
+}
+
+.finfooter{
+  padding: 50px 0 50px 0;
+}
+
+.imgfooter img{
+  padding: 50px 314px 50px 314px;
 }
 
 /*---Página Company---*/
