@@ -98,12 +98,12 @@ img.resize{
 
 .imgportada {
   margin: auto;
-  height: 750px;
+  padding-bottom: 50px
 }
 
 .espaciotop {
   margin: auto;
-  height: 110px;
+  padding-top: 110px;
 }
 
 .logo-portada {
@@ -121,9 +121,7 @@ img.resize{
 }
 
 .subtitulo {
-  margin: auto;
-  height: 350px;
-  width: 500px;
+  width: 100%;
   text-align: center;
 }
 
@@ -811,3 +809,20 @@ text-align:center;
   font-size: 2.3em;
 }
 
+.titulooutsourcing {
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.titulooutsourcing h3{
+  color: white;
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.titulooutsourcing p{
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+}

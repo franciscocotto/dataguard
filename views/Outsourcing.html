@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Outsourcing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap core CSS -->
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="../css/default.css" />
+	<link rel="stylesheet" type="text/css" href="../css/component.css" />
+	<link rel="stylesheet" type="text/css" href="../css/JuanMa.css" />
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href="../css/full-slider.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="../images/favicon.ico">
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+
+<!----start-top-nav-script---->
+<script>
+$(function() {
+	var pull 		= $('#pull');
+	menu 		= $('nav ul');
+	menuHeight	= menu.height();
+	$(pull).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	$(window).resize(function(){
+		var w = $(window).width();
+		if(w > 320 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}
+	});
+});
+</script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+</script>
+</head>
+<body>
+		<!-- Menu1 -->
+	<div class="navbar  pdd1 navbar-inverse navbar-fixed-top" role="navigation" id="menudesk">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" />
+			</div>
+		</div>
+		<div class="collapse navbar-collapse pdd2">
+			<ul class="nav navbar-nav">
+				<li><a href="Company.html" class="Company_page">Company</a></li>
+			<div class="dropdown">
+				<li><a href="#imgservicios" class="dropbtn">Solutions</a> 
+					 <div class="dropdown-content">
+    					<a href="#outsourcing">Outsourcing</a>
+    					<a href="#hardware">Hardware</a>
+   						<a href="#identity">e-Identity</a>
+   						<a href="#factory">Factory</a>
+  					</div>
+				</li>
+			</div>
+				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
+				<li><a href="#contact" class="scroll">Contact Us</a> </li>
+			</ul>
+		</div>
+	</div>
+	<!-- fin-Menu1 -->
+	<!-- inicio-Menu2 -->
+	<div class="navbar  pdd1 navbar-inverse navbar-static-top" role="navigation" id="menusmart">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" /></div>
+		</div>
+		<div class="collapse navbar-collapse pdd3">
+			<ul class="nav navbar-nav">
+				<li><a href="views/Company.html" class="Company_page">Company</a></li>
+				<li><a href="#mrp" class="scroll">Solutions</a> </li>
+				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
+				<li><a href="#contact" class="scroll">Contact Us</a> </li>
+			</ul>
+		</div>
+	</div>
+	<!-- fin-Menu2 -->
+	<!--Seccion1-StartPortada-->
+	<section class="portadacompany" style="background:#09435a;">
+		<div class="imgportadacompany" style="background-image:url(../images/img-3.jpg);">
+			<div class="titulooutsourcing">
+				<h3>Outsourcing</h3>
+				<br>
+				<p>Staffing</p>
+				<p>Headhuntng</p>
+			</div>
+		</div>
+	</section> 
+	<!--FinSeccion1-EndPortada-->
+	<!--InicioSeccion2-info -->
+	<section class="infoback" style="background: #e7e7e7">
+		<article class="w100">
+		<div class="left-info-company">
+			<div class="imgmision">
+				<img src="../images/img-mision.jpg">
+			</div>
+			<div class="misioninfo">
+				<h3>Mission</h3>
+				<p>Ensure the continuity of the operation of your business by providing quality solutions of information technologies and communications.</p>
+			</div>
+		</div>
+		<div class="right-info-company">
+			<div class="imgvision">
+				<img src="../images/img-vision.jpg">
+			</div>
+			<div class="misioninfo">
+				<h3>Vision</h3>
+				<p>To be recognized as a global specialist in ensuring the continuity of the business of our customers.</p>
+		</div>
+		</article>
+	</section>
+	<!--finSeccion2-info -->
