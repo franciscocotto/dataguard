@@ -668,7 +668,6 @@ footer {
 
 .infoback {
   float:left;
- /* height: 1200px;*/
   width: 100%;
   padding: 0 0 100px 0;
 }
@@ -826,3 +825,51 @@ text-align:center;
   font-size: 40px;
   font-weight: 300;
 }
+
+.left-info-cuadro-rojo {
+  float: left;
+  width: 50% !important;
+  padding: 0 0 0 100px;  
+}
+
+@media screen and (max-width: 768px) {
+.left-info-cuadro-rojo {
+  float: left;
+  display: block;
+  padding-top: 50px;
+  width: 100% !important;  
+}
+
+
+.right-info-outsrc {
+  float: right;
+  display: block;
+  padding-top: 50px;
+  width: 100% !important; 
+}
+}
+
+.cuadro-rojo {
+  width:75%;
+  display: inline-block;
+  float: left;
+  padding: 40px;
+}
+
+.cuadro-rojo p{
+  color: white;
+}
+
+.right-info-outsrc {
+  float: right;
+  display: block;
+  width: 50% !important; 
+}
+
+.outsrc-info1 {
+  width:75%;
+  display: inline-block;
+  float: left;
+  padding: 40px;
+}
+
