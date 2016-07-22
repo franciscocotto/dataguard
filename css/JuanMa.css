@@ -745,9 +745,9 @@ text-align:center;
 }
 
 .imgvision img{
-         margin: 0 0 0 5% !important;
-         background-size: cover;
-         background-position: center;
+  margin: 0 0 0 5% !important;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -765,14 +765,6 @@ text-align:center;
   padding-top: 50px;
   width: 100% !important; 
 }
-}
-
-.visioninfo h3{
-  display: block;
-  float: left;
-  color: #454545;
-  font-weight: 600;
-  font-size: 2.3em;
 }
 
 .ourvaluesbox {
@@ -937,3 +929,80 @@ text-align:center;
   font-weight: 5px;
 }
 
+.ourstory {
+  width: 100%;
+  padding-top: 35px;
+}
+
+.ourstory div {
+  width:65%;
+  margin:auto;
+}
+
+.ourstory h3{
+  color: #454545;
+  font-size: 2.3em;
+  font-weight: 300;
+}
+
+.ourstory p{
+  color: #454545;
+}
+
+.left-suggest {
+  float: left;
+  display: block;
+  padding-top: 50px;
+  width: 50%; 
+}
+
+.imgmision {
+  width:100%;
+  float: left;
+  display: inline-block;
+}
+
+.imgmision img{
+  margin: 0 0 0 17% !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.misioninfo {
+  width:100%;
+  display: inline-block;
+  float: left;
+}
+
+.misioninfo h3{
+text-align:center;
+  color: #454545;
+  font-weight: 600;
+  font-size: 2.3em;
+}
+
+.misioninfo p{
+  text-align:center;
+  color: #454545;
+  width: 50%;
+  margin: auto;
+}
+
+.right-info-company {
+  float: right;
+  display: block;
+  padding-top: 50px;
+  width: 50%; 
+}
+
+.imgvision {
+  width:100%;
+  float: left;
+  display: inline-block;
+}
+
+.imgvision img{
+  margin: 0 0 0 5% !important;
+  background-size: cover;
+  background-position: center;
+}
