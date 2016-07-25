@@ -1,1 +1,77 @@
-﻿
+﻿.left-img-rojo{
+		overflow: auto;
+   margin: 0 0 0 15%;
+	width: 80%;
+	padding: 5%;
+	max-height: 300px;
+	background: red;
+	float: left;
+	display:inline-block;
+}
+
+.left-img-rojo p{
+	font-size: 1.5em;
+	color:white;
+	margin: auto;
+}
+
+
+.riverainfoleft {
+  width:100%;
+  display: inline-block;
+  float: left;
+}
+
+.riverainfoleft h3{
+text-align:justify;
+  color: #454545;
+  width: 50%;
+  font-weight: 600;
+  margin: auto;
+  font-size: 2.3em;
+}
+
+.riverainfoleft h4{
+text-align:justify;
+  color: #454545;
+  width: 50%;
+  font-weight: 600;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+.riverainfoleft p{
+  text-align:justify;
+  color: #454545;
+  width: 50%;
+  margin: auto;
+}
+
+
+.riverainforight {
+  width:100%;
+  display: inline-block;
+  float: left;
+}
+
+.riverainforight  h3{
+text-align:justify;
+  color: #454545;
+  width: 70%;
+  font-weight: 600;
+  font-size: 2.3em;
+}
+
+.riverainforight  h4{
+text-align:justify;
+  color: #454545;
+  width: 70%;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.riverainforight  p{
+  text-align:justify;
+  color: #454545;
+  width: 70%;
+}
