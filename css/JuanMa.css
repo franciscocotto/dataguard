@@ -929,80 +929,84 @@ text-align:center;
   font-weight: 5px;
 }
 
-.ourstory {
+.suggestions-title {
+  float: left;
   width: 100%;
-  padding-top: 35px;
 }
 
-.ourstory div {
-  width:65%;
-  margin:auto;
+.moar {
+  margin: auto;
+  width: 100%;
+  float: left;
 }
 
-.ourstory h3{
-  color: #454545;
-  font-size: 2.3em;
-  font-weight: 300;
+.moar h3{
+  color: #b8252b;
+  font-size: 35px;
+  font-weight: 5px;
+  text-align: center;
 }
 
-.ourstory p{
-  color: #454545;
+.suggestions-services {
+  float: left;
 }
 
 .left-suggest {
   float: left;
   display: block;
-  padding-top: 50px;
-  width: 50%; 
+  padding: 100px;
+  width: 50%;
+  background-color: #cccccc;
 }
 
-.imgmision {
-  width:100%;
-  float: left;
-  display: inline-block;
-}
-
-.imgmision img{
-  margin: 0 0 0 17% !important;
-  background-size: cover;
-  background-position: center;
-}
-
-.misioninfo {
+.suggest1info {
   width:100%;
   display: inline-block;
   float: left;
+  margin: auto;
 }
 
-.misioninfo h3{
-text-align:center;
+.suggest1info h3{
   color: #454545;
   font-weight: 600;
   font-size: 2.3em;
 }
 
-.misioninfo p{
-  text-align:center;
+.suggest1info p{
   color: #454545;
+}
+
+.right-suggest {
+  float: right;
+  display: block;
+  padding: 100px;
   width: 50%;
+  background-color: #999999; 
+}
+
+.suggest2info {
+  width:100%;
+  display: inline-block;
+  float: left;
   margin: auto;
 }
 
-.right-info-company {
-  float: right;
-  display: block;
-  padding-top: 50px;
-  width: 50%; 
+.suggest2info h3{
+  color: #454545;
+  font-weight: 600;
+  font-size: 2.3em;
 }
 
-.imgvision {
-  width:100%;
+.suggest2info p{
+  color: #454545;
+}
+
+.botonmore {
+  width: 100%;
+  padding-top: 30px;
   float: left;
-  display: inline-block;
 }
 
-.imgvision img{
-  margin: 0 0 0 5% !important;
-  background-size: cover;
-  background-position: center;
+.botonmore img{
+  margin: auto;
 }
