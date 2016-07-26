@@ -168,17 +168,15 @@ h1.portadaservices {
 /*----Outsourcing----*/
 .resumenoutsrc{
    background:#e7e7e7;
-   height: 500px;
    margin: auto;
+   width: 100%;
+   float: left;
 }
 
 .outsrc-info {
    float: left;
-   margin: auto;
-   height: 100%;
    width: 50%;
-   padding-left: 20%;
-   padding-top: 10%;
+   padding: 
 }
 
 .outsrc-head h3{
@@ -188,9 +186,8 @@ h1.portadaservices {
 }
 
 .outsrc-img {
-   float: left;
-   padding-top: 3%;
-   padding-left: 3%;
+  float: right;
+  width: 50%;
 }
 
 /*----Hardware----*/
