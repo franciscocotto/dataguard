@@ -954,8 +954,9 @@ text-align:center;
 .left-suggest {
   float: left;
   display: block;
-  padding: 100px;
+  padding: 75px;
   width: 50%;
+  height: 445px;
   background-color: #cccccc;
 }
 
@@ -979,8 +980,9 @@ text-align:center;
 .right-suggest {
   float: right;
   display: block;
-  padding: 100px;
+  padding: 75px;
   width: 50%;
+  height: 445px;
   background-color: #999999; 
 }
 
@@ -1007,6 +1009,8 @@ text-align:center;
   float: left;
 }
 
-.botonmore img{
+.paramas {
+  width: 100%;
   margin: auto;
+  float: left;
 }
