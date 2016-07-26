@@ -1076,3 +1076,69 @@ text-align:center;
   width:100%;
   float: left;
 }
+
+.populartitle {
+  float: left;
+  width: 100%;
+}
+
+.popularleft {
+  width: 50%;
+  float: left;
+}
+
+.popularleft h3{
+  color: white;
+  font-size: 35px;
+  font-weight: 5px;
+  text-align: center;
+}
+
+.popularright {
+  width: 50%;
+  float: right;
+}
+
+.gotoboton {
+  width: 50%;
+  background-color: #ff0000;
+  padding: 3px;
+  margin: auto;
+  float: left;
+}
+
+.gotoboton h3{
+  color: white;
+  font-size: 25px;
+  font-weight: 3px;
+  text-align: center;
+}
+
+.list-servers {
+  width: 20%;
+  float: left;
+  display: inline;
+}
+
+.list-servers h3{
+  float: left;
+  color: white;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.list-servers ul{
+  float: left;
+  color: white;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.list-servers li{
+  padding-top: 10px;
+}
+
+.list-servers a{
+  color: white;
+  padding-top: 10px;
+}
