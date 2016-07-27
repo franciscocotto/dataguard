@@ -139,69 +139,77 @@ jQuery(document).ready(function($) {
 				</div>
 			</div>
 	</div>
+	<section class="w100">
 	<!-- OurServices -->
-	<img id="imgservicios" src="images/Our_Services.jpg">
+	<article class="sectionservices">
+		<div class="ourservicesimg">
+			<img id="imgservicios" src="images/Our_Services.jpg">
+		</div>
+	</article>
 	<!-- Outsourcing -->
-	<div id="outsourcing" class="resumenoutsrc">
+	<article id="outsourcing" class="resumenoutsrc">
 		<div class="outsrc-info">
-			<div class="outsrc-head">
-				<h3>Outsourcing</h3>
-				<br>
-				<p>One of our business lines is the outsourcing service that includes Staffing of IT personnel complemented with  Head Hunting designed to help you aquire the best of the best. Under this service we also offer Software Factory services.
-				</p>
+			<h3>Outsourcing</h3>
+			<br>
+			<p>One of our business lines is the outsourcing service that includes <b>Staffing</b> of IT personnel complemented with  <b>Head Hunting</b> designed to help you aquire the best of the best.
+			</p>
+			<div class="botonmore-index">
+				<a href="views/Outsourcing.html" class="paramas-index"><img src="images/boton-more.png"></a>
 			</div>
 		</div>
 		<div class="outsrc-img">
 			<img src="images/outsourcing-portada.png">
 		</div>
-	</div>
+	</article>
 	<!-- Hardware -->
-	<div id="hardware" class="resumenhard">
+	<article id="hardware" class="resumenhard">
 		<div class="hard-info">
-			<div class="hard-head">
-				<h3>Hardware</h3>
-				<br>
-				<p>As a result of our strategic alliances we can offer the best solutions in cloud services, virtual servers and business continuity (DRP). Additionally we offer new, refurbished and used IT parts for sale.
-				</p>
+			<h3>Hardware</h3>
+			<br>
+			<p>As a result of our strategic alliances we can offer the best solutions in <b>cloud services, virtual servers and business continuity (DRP).</b> Additionally we offer <b>new, refurbished and used IT parts for sale.</b>
+			</p>
+			<div class="botonmore-index">
+				<a href="views/IT-Hardware.html" class="paramas-index"><img src="images/boton-more.png"></a>
 			</div>
 		</div>
 		<div class="hard-img">
 			<img src="images/hardware-portada.png">
 		</div>
-	</div>
+	</article>
 	<!-- Identity -->
-	<div id="identity" class="resumenidentity">
+	<article id="identity" class="resumenidentity">
 		<div class="outsrc-info">
-			<div class="outsrc-head">
-				<h3>e-Identity & Security</h3>
-				<br>
-				<p>Personal security system that protects the biometric capture information according to the different characteristics of an individual (Fingerprints, iris, facial patterns and signature) to generate a single identification document.
-				</p>
+			<h3>e-Identity & Security</h3>
+			<br>
+			<p><b>Personal security system</b> that protects the biometric capture information according to the different <b>characteristics of an individual (Fingerprints, iris, facial patterns and signature)</b> to generate a single identification document.
+			</p>
+			<div class="botonmore-index">
+				<a href="views/Security.html" class="paramas-index"><img src="images/boton-more.png"></a>
 			</div>
 		</div>
 		<div class="outsrc-img">
 			<img src="images/identity-portada.png">
 		</div>
-	</div>
+	</article>
 	<!-- SoftwareFactory -->
-	<div id="factory" class="resumenfactory">
+	<article id="factory" class="resumenfactory">
 		<div class="hard-info">
-			<div class="hard-head">
-				<h3>Software Factory</h3>
-				<br>
-				<p>One of DataGuard’s most important business characteristics is the custom-made application development, based on your needs and preferences we adapt the system to the functions you´re needing and the design you prefer.
-				</p>
+			<h3>Software Factory</h3>
+			<br>
+			<p>One of DataGuard’s most important business characteristics is the <b>custom-made application development</b>, based on your needs and preferences we adapt the system to the functions you´re needing and the design you prefer.
+			</p>
+			<div class="botonmore-index">
+				<a href="views/Software-Factory.html" class="paramas-index"><img src="images/boton-more.png"></a>
 			</div>
 		</div>
 		<div class="hard-img">
-			<img src="images/hardware-portada.png">
+			<img src="images/factory-portada.png">
 		</div>
-	</div>
-
-	<!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide" data-ride="carousel" style="background:#09435a;">
-        
-        <!-- Indicators -->
+	</article>
+	</section>
+	<!-- CAROUSEL PROBLEM
+    <article id="myCarousel" class="carousel slide" data-ride="carousel" style="background:#09435a;">
+       
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -212,7 +220,7 @@ jQuery(document).ready(function($) {
             <li data-target="#myCarousel" data-slide-to="6"></li>
         </ol>
 
-        <!-- Wrapper for Slides -->
+
         <div class="carousel-inner">
             <div class="item active">
                 <div class="fill" style="background-image:url(views/img/12.jpg);">
@@ -220,7 +228,7 @@ jQuery(document).ready(function($) {
             </div>
         </div>
 
-        <!-- Controls -->
+
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
         </a>
@@ -228,14 +236,14 @@ jQuery(document).ready(function($) {
             <span class="icon-next"></span>
         </a>
 
-    </header>
+    </article>
 
   <script type="text/javascript">
 $('.carousel').carousel({
   interval: 5000
 })
 </script> 
-	
+	-->
 	<!-- contacto -->
 			<div id="contact" class="contact">
 				<div class="container">
@@ -259,7 +267,7 @@ $('.carousel').carousel({
 								<div class="col-md-6">
 									<div class="contact-right-grid">
 										<p><span class="c-msg"> </span><a href="#">info@dataguardgroup.com</a></p>
-										<p><span class="c-face"></span><a href="#">facebook.com/Dataguardgroup</a></p>
+										<p><span class="c-face"></span><a href="https://www.facebook.com/Dataguardgroup">facebook.com/Dataguardgroup</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>

@@ -160,6 +160,18 @@ h1.portadaservices {
    color: #242c57;
 }
 
+.botonmore-index {
+  width: 100%;
+  padding: 30px 0 0 100px;
+  float: left;
+}
+
+.paramas-index {
+  width: 100%;
+  margin: auto;
+  float: left;
+}
+
 /*----Solutions----*/
 #imgservicios{
    margin: auto;
@@ -168,73 +180,69 @@ h1.portadaservices {
 /*----Outsourcing----*/
 .resumenoutsrc{
    background:#e7e7e7;
-   height: 500px;
    margin: auto;
+   width: 100%;
+   float: left;
 }
 
 .outsrc-info {
    float: left;
-   margin: auto;
-   height: 100%;
    width: 50%;
-   padding-left: 20%;
-   padding-top: 10%;
-}
+   padding: 100px 40px 0 250px
+ }
 
-.outsrc-head h3{
+.outsrc-info h3{
    color: #454545;
    font-size: 35px;
    font-weight: 5px;
 }
 
 .outsrc-img {
-   float: left;
-   padding-top: 3%;
-   padding-left: 3%;
+  float: right;
+  width: 50%;
+  padding: 50px 0 50px 40px;
 }
 
 /*----Hardware----*/
 .resumenhard{
-   background:#b3b3b3;
-   height: 500px;
-   margin: auto;
+  background:#b3b3b3;
+  margin: auto;
+  width: 100%;
+  float: right;
 }
 
 .hard-info {
-   float: right;
-   margin: auto;
-   height: 100%;
-   width: 50%;
-   padding-right: 20%;
-   padding-top: 10%;
+  float: right;
+  width: 50%;
+  padding: 100px 250px 0 40px
 }
 
-.hard-head h3{
+.hard-info h3{
    color: #454545;
    font-size: 35px;
    font-weight: 5px;
 }
 
 .hard-img {
-    float: left;
-    height: 100%;
-    width: 50%;
-    padding-top: 3%;
-    padding-left: 17%;
- }
+  float: left;
+  width: 50%;
+  padding: 50px 40px 50px 250px;
+}
 
  /*----Identity----*/
  .resumenidentity{
    background:#cccccc;
-   height: 500px;
    margin: auto;
+   width: 100%;
+   float: left;
 }
 
 /*----SoftwareFactory----*/
 .resumenfactory{
-   background:#fff;
-   height: 500px;
-   margin: auto;
+  background:#fff;
+  margin: auto;
+  width: 100%;
+  float: right;
 }
 
 /*----Carousel----*/
