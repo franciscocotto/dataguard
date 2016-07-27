@@ -12,13 +12,11 @@
 	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 	<link href="css/full-slider.css" rel="stylesheet" type="text/css" />
 	<link rel="shortcuticon" href="images/favicon.ico">
-
 	<!-- Bootstrap core JavaScript -->
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </script>
-
 <!--start-top-nav-script-->
 <script>
 $(function() {
@@ -64,22 +62,21 @@ jQuery(document).ready(function($) {
 		<div class="collapse navbar-collapse pdd2">
 			<ul class="nav navbar-nav">
 				<li><a href="views/Company.html" class="Company_page">Company</a></li>
-			<div class="dropdown">
-				<li><a href="#imgservicios" class="dropbtn">Solutions</a> 
+			<li class="dropdown">
+				<a href="#imgservicios" class="dropbtn">Solutions</a> 
 					 <div class="dropdown-content">
     					<a href="#outsourcing">Outsourcing</a>
     					<a href="#hardware">Hardware</a>
    						<a href="#identity">e-Identity</a>
    						<a href="#factory">Factory</a>
   					</div>
-				</li>
-			</div>
+			</li>
 				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
 				<li><a href="#contact" class="scroll">Contact Us</a> </li>
 			</ul>
 		</div>
 	</div>
-	<!-- fin-Menu1 -->
+	<!-- Fin-Menu1 -->
 	<!-- Menu2 -->
 	<div class="navbar  pdd1 navbar-inverse navbar-static-top" role="navigation" id="menusmart">
 		<div class="navbar-header">
@@ -100,31 +97,34 @@ jQuery(document).ready(function($) {
 			</ul>
 		</div>
 	</div>
-	<!-- fin-Menu2 -->
+	<!-- Fin-Menu2 -->
 	<!--StartPortada-->
-	<header class="portada" style="background:#09435a;">
-		<section class="imgportada w100" style="background-image:url(images/img-1.jpg);">
-			<article class="espaciotop">
-				<div class="logo-portada" style="background-image:url(images/img-2.png);">
+	<header class="portada w100" style="background:#09435a; float: left;">
+		<section class="imgportada w100" style="background-image:url(images/img-1.jpg); float: left;">
+			<article class="espaciotop w100">
+				<div class="logo-portada">
+					<img src="images/img-2.png">
 				</div>
 			</article>
-			<article class="w100">
+			<article class="w100" style="float: left;">
 				<div class="decoracion" style="background:#b8252b"></div>
 			</article>
-			<!--PONER LINKS en servicios-->
-			<div class="subtitulo">
-				<h3 class="weare">We are a global company <b>specialized</b> in</h3>
-				<br>
-				<h1 class="portadaservices">IT Outsourcing <hr> IT Hardware <hr> Security and e-Identity <hr> Software Factory
-				</h1>
-			</div>
+			<article class="infoportada w100">
+				<div class="subtitulo">
+					<h3>We are a global company <b>specialized</b> in</h3>
+					<br>
+				</div>	
+				<div class="portadaservices" style="">	
+					<a href="#outsourcing" class="scroll"><h1>IT Outsourcing</h1></a>
+					<a href="#hardware" class="scroll"><h1>IT Hardware</h1></a>
+					<a href="#identity" class="scroll"><h1>e-Identity & Security</h1></a>
+					<a href="#factory" class="scroll"><h1>Software Factory</h1></a>
+				</div>
+			</article>
 		</section>
 	</header> 
 	<!--EndPortada-->
-	
-	<!-- seccion body-->
-
-	<!-- ResumenCompany -->
+	<!-- Start-Sección1-ResumenCompany -->
 	<div class="resumencompany">
 			<div class="col-md-8 resumencompany-info wow fadeInLeft">
 				<div class="resumencompany-head">
@@ -139,14 +139,14 @@ jQuery(document).ready(function($) {
 				</div>
 			</div>
 	</div>
+	<!-- End-Sección1-ResumenCompany -->
+	<!-- Start-Sección2-Solutions -->	
 	<section class="w100">
-	<!-- OurServices -->
 	<article class="sectionservices">
 		<div class="ourservicesimg">
 			<img id="imgservicios" src="images/Our_Services.jpg">
 		</div>
 	</article>
-	<!-- Outsourcing -->
 	<article id="outsourcing" class="resumenoutsrc">
 		<div class="outsrc-info">
 			<h3>Outsourcing</h3>
@@ -161,7 +161,6 @@ jQuery(document).ready(function($) {
 			<img src="images/outsourcing-portada.png">
 		</div>
 	</article>
-	<!-- Hardware -->
 	<article id="hardware" class="resumenhard">
 		<div class="hard-info">
 			<h3>Hardware</h3>
@@ -176,7 +175,6 @@ jQuery(document).ready(function($) {
 			<img src="images/hardware-portada.png">
 		</div>
 	</article>
-	<!-- Identity -->
 	<article id="identity" class="resumenidentity">
 		<div class="outsrc-info">
 			<h3>e-Identity & Security</h3>
@@ -191,7 +189,6 @@ jQuery(document).ready(function($) {
 			<img src="images/identity-portada.png">
 		</div>
 	</article>
-	<!-- SoftwareFactory -->
 	<article id="factory" class="resumenfactory">
 		<div class="hard-info">
 			<h3>Software Factory</h3>
@@ -207,9 +204,10 @@ jQuery(document).ready(function($) {
 		</div>
 	</article>
 	</section>
-	<!-- CAROUSEL PROBLEM
+	<!-- End-Sección2-Solutions -->
+	<!-- Start-Sección3-News -->
+    <section class="carouselmodif">
     <article id="myCarousel" class="carousel slide" data-ride="carousel" style="background:#09435a;">
-       
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -219,32 +217,27 @@ jQuery(document).ready(function($) {
             <li data-target="#myCarousel" data-slide-to="5"></li>
             <li data-target="#myCarousel" data-slide-to="6"></li>
         </ol>
-
-
         <div class="carousel-inner">
             <div class="item active">
                 <div class="fill" style="background-image:url(views/img/12.jpg);">
                 </div>         
             </div>
         </div>
-
-
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
         </a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
-
     </article>
-
+	</section>
   <script type="text/javascript">
 $('.carousel').carousel({
   interval: 5000
 })
 </script> 
-	-->
-	<!-- contacto -->
+	<!-- End-Sección3-News -->
+	<!-- Start-Sección4-Contacto -->
 			<div id="contact" class="contact">
 				<div class="container">
 				<div class="contact-grids">
@@ -316,7 +309,6 @@ $('.carousel').carousel({
 					</div>
 				</article>
 			</section>
-
 				<!--- derechos_reservados_angel_cotto -->
 				<div class="copy-right text-center">
 					<p><a href="#">DataGuard IT</a></p>
@@ -330,6 +322,7 @@ $('.carousel').carousel({
 					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 				</div>
 			</div>
-	</body>
+	<!-- End-Sección4-Contacto -->		
+</body>
 </html>
 

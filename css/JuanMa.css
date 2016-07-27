@@ -50,6 +50,7 @@ img.resize{
 }
 
 .dropdown-content {
+  list-style: none;
    display: none;
    position: absolute;
    background-color: black;
@@ -92,24 +93,13 @@ img.resize{
    left:120px;
 }
 
-.portada {
-  margin: auto;
-}
-
-.imgportada {
-  margin: auto;
-  padding-bottom: 50px
-}
-
 .espaciotop {
-  margin: auto;
   padding-top: 110px;
+  float: left;
 }
 
 .logo-portada {
-  margin: auto;
-  height: 112px;
-  width: 759px;
+  text-align: center;
 }
 
 .decoracion {
@@ -120,18 +110,42 @@ img.resize{
   margin-bottom: 50px;
 }
 
+.infoportada {
+  padding: 0 0 50px 0;
+  float: left;
+}
+
 .subtitulo {
   width: 100%;
+  float: left;
+}
+
+.subtitulo h3{
+  color: white;
   text-align: center;
 }
 
-h3.weare {
-  color: white;
+.portadaservices {
+  float: left;
+  width: 100%;
 }
 
-h1.portadaservices {
+.portadaservices h1{
   color: white;
   font-weight: 600;
+  text-align: center;
+}
+
+.portadaservices h1:hover{
+  color: #b8252b;
+  -webkit-transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.portadaservices a:hover {
+  text-decoration: none;
 }
 
 /*----Fin Nav y Portada----*/
@@ -170,6 +184,14 @@ h1.portadaservices {
   width: 100%;
   margin: auto;
   float: left;
+}
+
+.paramas-index img:hover {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;  
 }
 
 /*----Solutions----*/
@@ -246,6 +268,12 @@ h1.portadaservices {
 }
 
 /*----Carousel----*/
+
+.carouselmodif {
+  float: left;
+  width: 100%;
+}
+
 .carousel,
 .item,
 .active {
@@ -1020,6 +1048,14 @@ text-align:center;
   width: 100%;
   margin: auto;
   float: left;
+}
+
+.paramas img:hover {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;  
 }
 
 
