@@ -344,8 +344,8 @@ text-decoration:none;
 /*         background: rgb(220,220,220);*/
       }
       .logo2 img{
-         margin: 1.5% 0 0 46% !important;
-         width: 8% !important;
+         margin: 1.5% 0 0 25.5% !important;
+         width: 50% !important;
          background-size: cover;
          background-position: center;
       }
@@ -467,8 +467,8 @@ nav a#pull {
 /*         background: rgb(220,220,220);*/
       }
       .logo2 img{
-       margin: 1.5% 0 0 40% !important;
-         width: 18% !important;
+       margin: 1.5% 0 0 20% !important;
+         width: 60% !important;
          background-size: cover;
          background-position: center;
       }
@@ -529,12 +529,16 @@ nav a#pull {
          height: 100px;
 /*         background: rgb(220,220,220);*/
       }
-      .logo2 img{
-              margin: 6% 0 0 42% !important;
-         width: 16% !important;
+          .logo2 img{
+       margin: 1.5% 0 0 20% !important;
+         width: 60% !important;
          background-size: cover;
          background-position: center;
       }
+.decoracion {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
 	nav {
 		float:none;
 	}
@@ -567,9 +571,9 @@ nav a#pull {
          height: 100px;
 /*         background: rgb(220,220,220);*/
       }
-      .logo2 img{
-              margin: 6% 0 0 35% !important;
-         width: 30% !important;
+          .logo2 img{
+       margin: 1.5% 0 0 20% !important;
+         width: 60% !important;
          background-size: cover;
          background-position: center;
       }
@@ -606,12 +610,16 @@ nav a#pull {
          height: 100px;
 /*         background: rgb(220,220,220);*/
       }
-      .logo2 img{
-              margin: 6% 0 0 32% !important;
-         width: 40% !important;
+       .logo2 img{
+       margin: 1.5% 0 0 5% !important;
+         width: 90% !important;
          background-size: cover;
          background-position: center;
       }
+
+.portadaservices > a > h1 {
+	font-size: 20px !important;
+}
 
 
 	nav {
@@ -647,9 +655,9 @@ nav a#pull {
          height: 100px;
 /*         background: rgb(220,220,220);*/
       }
-      .logo2 img{
-              margin: 6% 0 0 32% !important;
-         width: 40% !important;
+       .logo2 img{
+       margin: 1.5% 0 0 5% !important;
+         width: 90% !important;
          background-size: cover;
          background-position: center;
       }
@@ -2132,7 +2140,7 @@ a.leran-more:hover{
 
 @media only screen and (max-width : 768px) {
 
-	#menudesk{
+	#pdd00{
 	display: none;}
 
 #menusmart{
@@ -2152,3 +2160,4 @@ a.leran-more:hover{
    	width: 100%;
    	left:110px;
    }
+      }

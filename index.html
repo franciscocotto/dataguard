@@ -43,12 +43,94 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 	});
+
+$('#nav, #pdd00, #menusmart').affix({
+      offset: {
+        top: $('header').height()
+      }
+});	
+
+
 });
+
 </script>
+
+<style>
+	/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+#pdd00{
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+}
+
+#menusmart{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+
+header{
+	height: calc(30% - 5px);
+    background-color:#eee;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+#pdd00.affix {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+#menusmart.affix {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+</style>
 </head>
 <body>
-	<!-- Menu1 -->
-	<div class="navbar  pdd1 navbar-inverse navbar-fixed-top" role="navigation" id="menudesk">
+	<!--StartPortada-->
+	<header class="portada">
+		<section class="imgportada w100">
+			<article class="espaciotop w100">
+				<div class="logo2">
+					<img src="images/img-2.png">
+				</div>
+			</article>
+			<article class="w100" style="float: left;">
+				<div class="decoracion" style="background:#b8252b"></div>
+			</article>
+			<article class="infoportada w100">
+				<div class="subtitulo">
+					<h3>We are a global company <b>specialized</b> in</h3>
+					<br>
+				</div>	
+				<div class="portadaservices">	
+					<a href="#outsourcing" class="scroll"><h1>IT Outsourcing</h1></a>
+					<a href="#hardware" class="scroll"><h1>IT Hardware</h1></a>
+					<a href="#identity" class="scroll"><h1>e-Identity & Security</h1></a>
+					<a href="#factory" class="scroll"><h1>Software Factory</h1></a>
+				</div>
+			</article>
+		</section>
+	</header> 
+	<!--EndPortada--> 	
+<!-- Begin Navbar -->
+<div id="nav">
+<!-- Menu1 -->
+	<div class="navbar navbar-inverse pdd1 navbar-static-top" role="navigation" id="pdd00">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="sr-only">Toggle navigation</span>
@@ -56,21 +138,21 @@ jQuery(document).ready(function($) {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = 'index.html'"><img class="resize" src="images/logo_dataguard.png" />
+			<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = 'index.html'"><img class="resize" src="images/logo_dataguard.png" />
 			</div>
 		</div>
-		<div class="collapse navbar-collapse pdd2">
+		<div class="navbar-collapse collapse pdd2" >
 			<ul class="nav navbar-nav">
-				<li><a href="views/Company.html" class="Company_page">Company</a></li>
-			<li class="dropdown">
-				<a href="#imgservicios" class="dropbtn">Solutions</a> 
-					 <div class="dropdown-content">
-    					<a href="#outsourcing">Outsourcing</a>
-    					<a href="#hardware">Hardware</a>
-   						<a href="#identity">e-Identity</a>
-   						<a href="#factory">Factory</a>
-  					</div>
-			</li>
+				<li><a href="views/Company.html">Company</a></li>
+				<li class="dropdown">
+					<a href="#imgservicios" class="scroll">Solutions</a> 
+					<div class="dropdown-content">
+						<a href="#outsourcing" class="scroll">Outsourcing</a>
+						<a href="#hardware" class="scroll">Hardware</a>
+						<a href="#identity" class="scroll">e-Identity</a>
+						<a href="#factory" class="scroll">Factory</a>
+					</div>
+				</li>
 				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
 				<li><a href="#contact" class="scroll">Contact Us</a> </li>
 			</ul>
@@ -92,40 +174,17 @@ jQuery(document).ready(function($) {
 			<ul class="nav navbar-nav">
 				<li><a href="views/Company.html" class="Company_page">Company</a></li>
 				<li><a href="#mrp" class="scroll">Solutions</a> </li>
+
 				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
 				<li><a href="#contact" class="scroll">Contact Us</a> </li>
 			</ul>
 		</div>
 	</div>
 	<!-- Fin-Menu2 -->
-	<!--StartPortada-->
-	<header class="portada">
-		<section class="imgportada w100">
-			<article class="espaciotop w100">
-				<div class="logo-portada">
-					<img src="images/img-2.png">
-				</div>
-			</article>
-			<article class="w100" style="float: left;">
-				<div class="decoracion" style="background:#b8252b"></div>
-			</article>
-			<article class="infoportada w100">
-				<div class="subtitulo">
-					<h3>We are a global company <b>specialized</b> in</h3>
-					<br>
-				</div>	
-				<div class="portadaservices" style="">	
-					<a href="#outsourcing" class="scroll"><h1>IT Outsourcing</h1></a>
-					<a href="#hardware" class="scroll"><h1>IT Hardware</h1></a>
-					<a href="#identity" class="scroll"><h1>e-Identity & Security</h1></a>
-					<a href="#factory" class="scroll"><h1>Software Factory</h1></a>
-				</div>
-			</article>
-		</section>
-	</header> 
-	<!--EndPortada-->
+</div>
+
 	<!-- Start-Sección1-ResumenCompany -->
-	<div class="resumencompany">
+	<div class="resumencompany" id="imgservicios">
 			<div class="col-md-8 resumencompany-info wow fadeInLeft">
 				<div class="resumencompany-head">
 					<h3>
@@ -141,13 +200,14 @@ jQuery(document).ready(function($) {
 	</div>
 	<!-- End-Sección1-ResumenCompany -->
 	<!-- Start-Sección2-Solutions -->	
-	<section class="w100">
+	<section class="w100" style="float:left;">
 	<article class="sectionservices">
 		<div class="ourservicesimg">
-			<img id="imgservicios" src="images/Our_Services.jpg">
+			<img src="images/Our_Services.jpg">
 		</div>
 	</article>
 	<article id="outsourcing" class="resumenoutsrc">
+	<div class="expertice-left-grid2 wow fadeInLeft" data-wow-delay="0.4s">
 		<div class="outsrc-info">
 			<h3>Outsourcing</h3>
 			<br>
@@ -159,6 +219,7 @@ jQuery(document).ready(function($) {
 		</div>
 		<div class="outsrc-img">
 			<img src="images/outsourcing-portada.png">
+		</div>
 		</div>
 	</article>
 	<article id="hardware" class="resumenhard">

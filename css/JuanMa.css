@@ -5,6 +5,10 @@ width:100% !important;
   display: inline-block;
 }
 
+.sectionservices{
+  float: left;
+}
+
 .imgportada{
     float: left;
     background-image: url(../images/img-1.jpg);
@@ -30,15 +34,16 @@ img.resize{
    background: black!important;
 }
 
-.pdd1 a{
+.pdd2 a{
+  border-top: 3px solid #000 !important; 
    color: white !important;
    font-weight: 600;
    font-size: 1em;
    margin-bottom: 0;
 }
 
-.pdd1 a:hover{
- border-top: 3px solid #ff2a2a !important;
+.pdd2 a:hover{
+  border-top: 3px solid #ff2a2a !important;
    font-weight: 600;
    font-size: 1em;
    margin-bottom: 0;
@@ -56,27 +61,30 @@ img.resize{
    position: relative;
    display: inline-block;
    font-size: 1em;
-   margin: 0px 7px;
 }
 
 .dropdown-content {
-  list-style: none;
-   display: none;
-   position: absolute;
-   background-color: black;
-   opacity: 0.7;
-   min-width: 103px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    width: 300px;
+    list-style: none;
+    display: none;
+    background-color: black;
+    opacity: 0.8;
+    min-width: 103px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
    color: black;
-   padding: 12px 16px;
+   padding: 12px 0px;
    text-decoration: none;
    display: block;
 }
 
 .dropdown-content a:hover {
+  color: black !important;
    background-color: #f1f1f1
 }
 
@@ -87,12 +95,8 @@ img.resize{
 /*----Fin DropdwnMenu----*/
 
 .pdd2 {
-   top: 15px;
-   position: fixed;
-   font-size: 1em;
-   background: black!important;
-   width: 100%;
-   left: 300px
+  margin-top: 2%;
+margin-left: 25%;
 }
 
 .pdd3{
@@ -117,7 +121,6 @@ img.resize{
   height: 5px;
   width: 300px;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .infoportada {
@@ -164,7 +167,8 @@ img.resize{
 
 .resumencompany{
    background:#e7e7e7;
-   height: 400px;
+   height: auto;
+   float: left;
    width: 100%;
    margin: auto;
 }
