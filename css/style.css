@@ -348,6 +348,7 @@ text-decoration:none;
          width: 50% !important;
          background-size: cover;
          background-position: center;
+         float: left;
       }
 
 nav {
@@ -395,6 +396,7 @@ nav a#pull {
          width: 28%;
          background-size: cover;
          background-position: center;
+         float: left;
      }
 
  }
@@ -429,6 +431,7 @@ nav a#pull {
          width: 30% !important;
          background-size: cover;
          background-position: center;
+         float: left;
      }
 
  }
@@ -471,6 +474,7 @@ nav a#pull {
          width: 60% !important;
          background-size: cover;
          background-position: center;
+         float: left;
       }
 	nav {
 		border-bottom: 0;
@@ -534,6 +538,7 @@ nav a#pull {
          width: 60% !important;
          background-size: cover;
          background-position: center;
+         float: left;
       }
 .decoracion {
     margin-top: 0 !important;
@@ -576,6 +581,7 @@ nav a#pull {
          width: 60% !important;
          background-size: cover;
          background-position: center;
+         float: left;
       }
 	nav {
 		float:none;
@@ -615,6 +621,7 @@ nav a#pull {
          width: 90% !important;
          background-size: cover;
          background-position: center;
+         float: left;
       }
 
 .portadaservices > a > h1 {
@@ -660,6 +667,7 @@ nav a#pull {
          width: 90% !important;
          background-size: cover;
          background-position: center;
+         float: left;
       }
 	nav {
 		float:none;
@@ -812,6 +820,28 @@ nav a#pull {
 	min-height: 656px;
 }
 
+.expertise-head{
+	padding: 0 25% 0 25%;
+}
+
+.expertice-img{
+	margin-left:33%; margin-right:33%;
+}
+
+.expertise-head h3{
+	font-weight: 900;
+	font-size: 3.5em;
+	color: #222222;
+	font-family: calibri;
+	margin: 0.3em 0 0.6em;
+}
+.expertise-head p{
+	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.7em;
+	color:#777777;
+}
+
 .e-left-inner-grid-left{
 	float:left;
 	width:10%
@@ -882,7 +912,7 @@ a.leran-more:hover{
 }
 
 .expertise-left-inner-grids{
-	padding:2em 0;
+	    padding: 0 25% 0 25%;
 }
 /*---- portflio ----*/
 .portfolio-top-left{
@@ -912,6 +942,10 @@ a.leran-more:hover{
 	color: #222222;
 	text-transform: uppercase;
 	margin: 0.3em 0 0.6em;
+}
+
+.ourservicesimg{
+display: none !important;
 }
 }
 
@@ -1659,7 +1693,7 @@ a.leran-more:hover{
 		font-size: 0.8em;
 	}
 	.expertise-head h3 {
-		font-size: 2em;
+		font-size: 2em !important;
 	}
 	.e-left-inner-grid {
 		width: 100%;

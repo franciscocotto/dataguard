@@ -50,6 +50,10 @@ $('#nav, #pdd00, #menusmart').affix({
       }
 });	
 
+     var navMain = $("#nav-main");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
 
 });
 
@@ -153,8 +157,8 @@ header{
 						<a href="#factory" class="scroll">Factory</a>
 					</div>
 				</li>
-				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
-				<li><a href="#contact" class="scroll">Contact Us</a> </li>
+				<li> <a href="#myCarouselscroll" class="scroll">News Feed</a></li>
+				<li><a href="#contactscroll" class="scroll">Contact Us</a> </li>
 			</ul>
 		</div>
 	</div>
@@ -168,15 +172,17 @@ header{
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = '../index.html'"><img class="resize" src="images/logo_dataguard.png" /></div>
+			<div class="navbar-brand cursorr" style="margin-right:5%;" onclick="window.location = '../index.html'"><img class="resize" src="images/logo_dataguard.png" /></div>
 		</div>
-		<div class="collapse navbar-collapse pdd3">
+		<div class="collapse navbar-collapse pdd3" id="nav-main">
 			<ul class="nav navbar-nav">
-				<li><a href="views/Company.html" class="Company_page">Company</a></li>
-				<li><a href="#mrp" class="scroll">Solutions</a> </li>
-
-				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
-				<li><a href="#contact" class="scroll">Contact Us</a> </li>
+				<a href="views/Company.html"><li>Company</li></a>
+				<a href="#outsourcing" class="scroll"><li> Outsourcing</li></a>
+				<a href="#hardware" class="scroll"><li> Hardware</li></a>
+				 <a href="#identity" class="scroll"><li>e-Identity</li></a>
+				 <a href="#factory" class="scroll"><li>Factory</li></a>
+				<a href="#myCarouselscroll" class="scroll"><li> News Feed</li></a>
+				<a href="#contactscroll" class="scroll"><li>Contact Us</li></a> 
 			</ul>
 		</div>
 	</div>
@@ -203,72 +209,111 @@ header{
 	<section class="w100" style="float:left;">
 	<article class="sectionservices">
 		<div class="ourservicesimg">
-			<img src="images/Our_Services.jpg">
+			<br>
 		</div>
 	</article>
+
 	<article id="outsourcing" class="resumenoutsrc">
-	<div class="expertice-left-grid2 wow fadeInLeft" data-wow-delay="0.4s">
-		<div class="outsrc-info">
-			<h3>Outsourcing</h3>
-			<br>
-			<p>One of our business lines is the outsourcing service that includes <b>Staffing</b> of IT personnel complemented with  <b>Head Hunting</b> designed to help you aquire the best of the best.
-			</p>
-			<div class="botonmore-index">
-				<a href="views/Outsourcing.html" class="paramas-index"><img src="images/boton-more.png"></a>
+		<div style="background:#f0f0f0; width:100%; padding:2%; float:left;"></div>
+		<div class="expertice-grids">
+			<div class="col-md-7 expertice-left-grid2 wow fadeInLeft" data-wow-delay="0.4s">
+				<div class="expertise-head">
+
+					<h3>IT Outsourcing</h3>
+					<p>One of our business lines is the outsourcing service that includes <b>Staffing</b> of IT personnel complemented with  <b>Head Hunting</b> designed to help you aquire the best of the best.
+					</p>		
+				</div>
+				<div class="expertise-left-inner-grids">
+					<div class="e-left-inner-grid">
+						<div class="botonmore-index">
+							<a href="views/Outsourcing.html" class="paramas-index"><img src="images/boton-more.png"></a>
+						</div>
+					</div>
+				</div>			
+			</div>
+			<div class="col-md-5 wow fadeInRight" id="close_right" data-wow-delay="0.4s">
+				<img src="images/outsourcing-portada.png">
 			</div>
 		</div>
-		<div class="outsrc-img">
-			<img src="images/outsourcing-portada.png">
-		</div>
-		</div>
 	</article>
+
 	<article id="hardware" class="resumenhard">
-		<div class="hard-info">
-			<h3>Hardware</h3>
-			<br>
-			<p>As a result of our strategic alliances we can offer the best solutions in <b>cloud services, virtual servers and business continuity (DRP).</b> Additionally we offer <b>new, refurbished and used IT parts for sale.</b>
-			</p>
-			<div class="botonmore-index">
-				<a href="views/IT-Hardware.html" class="paramas-index"><img src="images/boton-more.png"></a>
+		<div style="background:#b3b3b3; width:100%; padding:2%; float:left;"></div>
+		<div class="expertice-grids">
+			<div class="col-md-5 wow fadeInRight" id="close_right" data-wow-delay="0.4s">
+				<img class="expertice-img" src="images/hardware-portada.png">
+			</div>
+						<div class="col-md-7 expertice-left-grid2 wow fadeInLeft" data-wow-delay="0.4s">
+				<div class="expertise-head">
+
+					<h3>IT Hardware</h3>
+					<p>As a result of our strategic alliances we can offer the best solutions in <b>cloud services, virtual servers and business continuity (DRP).</b> Additionally we offer <b>new, refurbished and used IT parts for sale.</b>
+			</p>		
+				</div>
+				<div class="expertise-left-inner-grids">
+					<div class="e-left-inner-grid">
+						<div class="botonmore-index">
+							<a href="views/IT-Hardware.html" class="paramas-index"><img src="images/boton-more.png"></a>
+						</div>
+					</div>
+				</div>			
 			</div>
 		</div>
-		<div class="hard-img">
-			<img src="images/hardware-portada.png">
-		</div>
 	</article>
+
 	<article id="identity" class="resumenidentity">
-		<div class="outsrc-info">
-			<h3>e-Identity & Security</h3>
-			<br>
-			<p><b>Personal security system</b> that protects the biometric capture information according to the different <b>characteristics of an individual (Fingerprints, iris, facial patterns and signature)</b> to generate a single identification document.
-			</p>
-			<div class="botonmore-index">
-				<a href="views/Security.html" class="paramas-index"><img src="images/boton-more.png"></a>
+		<div style="background:#cccccc; width:100%; padding:2%; float:left;"></div>
+		<div class="expertice-grids">
+			<div class="col-md-7 expertice-left-grid2 wow fadeInLeft" data-wow-delay="0.4s">
+				<div class="expertise-head">
+
+					<h3>e-Identity & Security</h3>
+					<p>One of DataGuard’s most important business characteristics is the <b>custom-made application development</b>, based on your needs and preferences we adapt the system to the functions you´re needing and the design you prefer.
+			</p>		
+				</div>
+				<div class="expertise-left-inner-grids">
+					<div class="e-left-inner-grid">
+						<div class="botonmore-index">
+							<a href="views/Security.html" class="paramas-index"><img src="images/boton-more.png"></a>
+						</div>
+					</div>
+				</div>			
+			</div>
+			<div class="col-md-5 wow fadeInRight" id="close_right" data-wow-delay="0.4s">
+				<img src="images/identity-portada.png">
 			</div>
 		</div>
-		<div class="outsrc-img">
-			<img src="images/identity-portada.png">
-		</div>
 	</article>
-	<article id="factory" class="resumenfactory">
-		<div class="hard-info">
-			<h3>Software Factory</h3>
+			<article id="factory" class="resumenfactory">
+		<div style="background:#fff; width:100%; padding:2%; float:left;"></div>
+		<div class="expertice-grids">
+			<div class="col-md-5 wow fadeInRight" id="close_right" data-wow-delay="0.4s">
+				<img class="expertice-img" src="images/factory-portada.png">
+			</div>
+						<div class="col-md-7 expertice-left-grid2 wow fadeInLeft" data-wow-delay="0.4s">
+				<div class="expertise-head">
+
+					<h3>Software Factory</h3>
 			<br>
 			<p>One of DataGuard’s most important business characteristics is the <b>custom-made application development</b>, based on your needs and preferences we adapt the system to the functions you´re needing and the design you prefer.
 			</p>
-			<div class="botonmore-index">
-				<a href="views/Software-Factory.html" class="paramas-index"><img src="images/boton-more.png"></a>
+				</div>
+				<div class="expertise-left-inner-grids">
+					<div class="e-left-inner-grid">
+						<div class="botonmore-index">
+						<a href="views/Software-Factory.html" class="paramas-index"><img src="images/boton-more.png"></a>
+						</div>
+					</div>
+				</div>			
 			</div>
-		</div>
-		<div class="hard-img">
-			<img src="images/factory-portada.png">
 		</div>
 	</article>
 	</section>
 	<!-- End-Sección2-Solutions -->
+	<div id="myCarouselscroll" style="background:#FFF; width:100%; padding:1.5%; float:left;"></div>
 	<!-- Start-Sección3-News -->
-    <section class="carouselmodif">
-    <article id="myCarousel" class="carousel slide" data-ride="carousel" style="background:#09435a;">
+    <section  id="myCarousel" class="carousel slide" data-ride="carousel" style="background:#09435a; float:left; width:100%;">
+        <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -276,28 +321,56 @@ header{
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
             <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
         </ol>
+
+        <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url(views/img/12.jpg);">
-                </div>         
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(images/12.jpg);"></div>         
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/23.jpg);"></div>   
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/24.jpg);"></div>
+            </div>
+             <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/25.jpg);"></div>
+            </div>
+             <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/26.jpg);"></div>
+            </div>
+             <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/27.jpg);"></div>
             </div>
         </div>
+
+        <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
         </a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
-    </article>
-	</section>
+
+    </section>
+
+
+
+
   <script type="text/javascript">
 $('.carousel').carousel({
   interval: 5000
 })
-</script> 
+</script>  
 	<!-- End-Sección3-News -->
+	<div id="contactscroll" style="background:#e7e7e7; width:100%; padding:1.5%; float:left;"></div>
 	<!-- Start-Sección4-Contacto -->
 			<div id="contact" class="contact">
 				<div class="container">
@@ -365,8 +438,8 @@ $('.carousel').carousel({
 			<!--Footer-->
 			<section class="finfooter w100" style="background: black; float: left;">
 				<article class="infofooter w100">
-					<div class="imgfooter w100">
-						<img src="images/logo_dataguard.png">
+					<div class="imgfooter">
+						<br>
 					</div>
 				</article>
 			</section>
