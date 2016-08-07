@@ -620,7 +620,7 @@ footer {
 .contact{
   width: 100%;
   float: left;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0 0;
   background-color: #e7e7e7;
 }
 .contact-left h3{
@@ -780,7 +780,7 @@ footer {
 }
 
 .finfooter{
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0px 0;
 }
 
 .imgfooter{
@@ -808,6 +808,10 @@ footer {
 }
 
 }  
+
+.infofooter a:hover{
+  text-decoration: none;
+}
 /*---Página Company---*/
 .portadacompany {
   margin: auto;
@@ -1313,4 +1317,24 @@ text-align:center;
 .list-servers a{
   color: white;
   padding-top: 10px;
+}
+
+#contact1{
+display: inline-block;
+
+}
+#contact2 {
+display: none;
+
+}
+
+@media only screen and (min-width:0px) and (max-width: 1133px)  {
+#contact1{
+display: none;
+
+}
+#contact2 {
+display: inline-block;
+
+}
 }
