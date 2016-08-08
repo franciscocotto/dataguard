@@ -1,6 +1,20 @@
 .w100{
 width:100% !important;
 }
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.eot');
+  src: local('☺'), 
+    url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato-Regular.woff2') format('woff2'),
+    url('../fonts/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato-Regular.ttf') format('truetype'),
+    url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .cursorr{
   display: inline-block;
 }
@@ -46,19 +60,23 @@ img.resize{
    background: black!important;
 }
 
+.pdd2 {
+  font-weight: lighter !important;
+}
+
 .pdd2 a{
   border-top: 3px solid #000 !important; 
-   color: white !important;
-   font-weight: 600;
-   font-size: 1em;
-   margin-bottom: 0;
+  color: white !important;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
 .pdd2 a:hover{
   border-top: 3px solid #ff2a2a !important;
-   font-weight: 600;
-   font-size: 1em;
-   margin-bottom: 0;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
 /*----DropdwnMenu----*/
@@ -156,8 +174,6 @@ margin-right: 20%;
 }
 }
 
-
-
 @media only screen and (min-width:768px) and (max-width: 831px)  {
 .pdd2 {
   margin-top: 2%;
@@ -180,10 +196,10 @@ margin-right: 15%;
    width: 100%;
    left:120px;
 }
- .pdd3 li{
-     padding: 9px;
- }
 
+.pdd3 li{
+     padding: 9px;
+}
 
 .pdd3 li:hover{
   cursor: pointer;
@@ -196,7 +212,7 @@ margin-right: 15%;
 }
 
 .espaciotop {
-  padding-top: 110px;
+  padding-top: 10px;
   float: left;
 }
 
@@ -212,7 +228,7 @@ margin-right: 15%;
 }
 
 .infoportada {
-  padding: 0 0 50px 0;
+  padding: 25px 0 50px 0;
   float: left;
 }
 
@@ -222,6 +238,7 @@ margin-right: 15%;
 }
 
 .subtitulo h3{
+  font-weight: lighter !important;
   color: white;
   text-align: center;
 }
@@ -232,6 +249,7 @@ margin-right: 15%;
 }
 
 .portadaservices h1{
+  font-weight: bolder !important;
   color: white;
   font-weight: 600;
   text-align: center;
@@ -272,13 +290,15 @@ margin-right: 15%;
 }
 
 .resumencompany-head h3{
-   text-align: center;
-   color: #242c57;
+  font-weight: lighter !important;
+  text-align: center;
+  color: #242c57;
+  font-size: 27px;
 }
 
 .botonmore-index {
   width: 100%;
-  padding: 30px 0 0 100px;
+  padding: 30px 0 30px 100px;
   float: left;
 }
 
@@ -336,8 +356,9 @@ margin-right: 15%;
 }
 
 
-.resumenhard p{
-  color: black !important;
+.resumenhard p,
+.resumenidentity p{
+  color: #454545 !important;
 }
 
 
@@ -678,10 +699,13 @@ footer {
   background-position: 0px -132px;
 }
 
+.col-md-12 {
+  padding: 30px 0 0 0;
+}
+
 .contactregion{
   float: left;
   display: block;
-  height: 200px;
   width: 100%;
 }
 
@@ -696,7 +720,7 @@ footer {
   padding-top: 50px;
   color: #242c57;
   float: left;
-  padding-left: 20px;
+
 }
 
 
