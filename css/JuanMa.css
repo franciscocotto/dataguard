@@ -47,7 +47,7 @@ width:100% !important;
 .ourservicesimg{
   height: 281px;
   float: left;
-  background-image: url(../images/our_Services.jpg);
+  background-image: url(../images/services.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -906,6 +906,11 @@ footer {
   font-weight: 600;
 }
 
+.titulocompany p{
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
 
 @media only screen and (min-width:360px) and (max-width: 646px)  {
 .titulocompany {
@@ -919,6 +924,11 @@ footer {
   font-size: 5em;
   font-weight: 600;
   text-align: center;
+}
+.titulocompany p{
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
 }
 }
 
@@ -935,6 +945,11 @@ footer {
   font-size: 3em;
   font-weight: 600;
   text-align: center;
+}
+.titulocompany p{
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
 }
 }
 
