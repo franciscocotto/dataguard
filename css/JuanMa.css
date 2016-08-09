@@ -25,34 +25,34 @@ width:100% !important;
 }
 
 .imgportada{
-    float: left;
-    background-image: url(../images/img-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
+  float: left;
+  background-image: url(../images/img-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 .imgportadacompany{
-    float: left;
-    background-image: url(../images/img-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
+  float: left;
+  background-image: url(../images/img-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 .ourservicesimg{
-height: 281px;
-float: left;
-background-image: url(../images/Our_Services.jpg);
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-background-color: #464646;
-width: 100%;
+  height: 281px;
+  float: left;
+  background-image: url(../images/Our_Services.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  width: 100%;
 }
 
 img.resize{
@@ -64,10 +64,10 @@ img.resize{
 }
 
 .pdd1{
-   text-align: center;
-   height: 75px !important;
-   margin-bottom: 0px !important;
-   background: black!important;
+  text-align: center;
+  height: 75px !important;
+  margin-bottom: 0px !important;
+  background: black!important;
 }
 
 .pdd2 {
@@ -112,35 +112,35 @@ img.resize{
 /*----DropdwnMenu----*/
 
 .dropbtn {
-   border: none;
-   cursor: pointer;
+  border: none;
+  cursor: pointer;
 }
 
 .dropdown {
-   float: left;
-   position: relative;
-   display: inline-block;
-   font-size: 1em;
+  float: left;
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
 }
 
 .dropdown-content {
-    position: absolute;
-    z-index: 2;
-    top: 35px;
-    width: 300px;
-    list-style: none;
-    display: none;
-    background-color: black;
-    opacity: 0.8;
-    min-width: 103px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 2;
+  top: 35px;
+  width: 300px;
+  list-style: none;
+  display: none;
+  background-color: black;
+  opacity: 0.8;
+  min-width: 103px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-   color: black;
-   padding: 12px 0px;
-   text-decoration: none;
-   display: block;
+  color: black;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
@@ -149,30 +149,30 @@ img.resize{
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 /*----Fin DropdwnMenu----*/
 
 .pdd2 {
   margin-top: 2%;
-margin-left: 33%;
-margin-right: 33%;
+  margin-left: 33%;
+  margin-right: 33%;
 
 }
 
 .pdb2 {
   margin-top: 2%;
-margin-left: 33%;
-margin-right: 33%;
+  margin-left: 33%;
+  margin-right: 33%;
 
 }
 
 @media only screen and (min-width:1246px) and (max-width: 1460px)  {
 .pdd2 {
   margin-top: 2%;
-margin-left: 30%;
-margin-right: 30%;
+  margin-left: 30%;
+  margin-right: 30%;
 
 
 }
@@ -180,10 +180,8 @@ margin-right: 30%;
 
 .pdb2 {
   margin-top: 2%;
-margin-left: 20%;
-margin-right: 20%;
-
-
+  margin-left: 20%;
+  margin-right: 20%;
 }
 }
 
@@ -191,34 +189,32 @@ margin-right: 20%;
 @media only screen and (min-width:997px) and (max-width: 1245px)  {
 .pdd2 {
   margin-top: 2%;
-margin-left: 25%;
-margin-right: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .pdb2 {
   margin-top: 2%;
-margin-left: 20%;
-margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .cursorr img{
   width: 20%;
 }
-
 }
-
 
 @media only screen and (min-width:831px) and (max-width: 997px)  {
 .pdd2 {
   margin-top: 2%;
-margin-left: 20%;
-margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .pdb2 {
   margin-top: 2%;
-margin-left: 15%;
-margin-right: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .cursorr img{
   width: 20%;
@@ -228,19 +224,19 @@ margin-right: 15%;
 @media only screen and (min-width:768px) and (max-width: 831px)  {
 .pdd2 {
   margin-top: 2%;
-margin-left: 15%;
-margin-right: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .pdb2 {
   margin-top: 2%;
-margin-left: 12%;
-margin-right: 12%;
+  margin-left: 12%;
+  margin-right: 12%;
 }
+
 .cursorr img{
   width: 20%;
 }
-
 }
 
 .pdd3{
@@ -754,7 +750,6 @@ footer {
   background-position: 0px -132px;
 }
 
-
 .contactregion{
   float: left;
   display: block;
@@ -872,7 +867,6 @@ footer {
     /* background-color: #464646; */
 }
 
-
 @media only screen and (max-width : 816px) {
 .imgfooter{
     width: 100% !important;
@@ -884,12 +878,12 @@ footer {
     /* background-size: cover; */
     /* background-color: #464646; */
 }
-
-}  
+}
 
 .infofooter a:hover{
   text-decoration: none;
 }
+
 /*---Página Company---*/
 .portadacompany {
   margin: auto;
@@ -962,13 +956,16 @@ footer {
 }
 
 .ourstory h3{
+  font-family: 'Lato' !important;
   color: #454545;
-  font-size: 2.3em;
-  font-weight: 300;
+  font-size: 45px;
+  font-weight: 600;
 }
 
 .ourstory p{
   color: #454545;
+  font-size: 22px;
+  font-weight: lighter;
 }
 
 .left-info-company {
@@ -996,10 +993,10 @@ footer {
 }
 
 .misioninfo h3{
-text-align:center;
+  text-align:center;
   color: #454545;
   font-weight: 600;
-  font-size: 2.3em;
+  font-size: 45px;
 }
 
 .misioninfo p{
@@ -1007,6 +1004,8 @@ text-align:center;
   color: #454545;
   width: 50%;
   margin: auto;
+  font-size: 22px;
+  font-weight: lighter;  
 }
 
 .right-info-company {
@@ -1058,7 +1057,7 @@ text-align:center;
 }
 
 .valoresbox {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .nr{
@@ -1164,7 +1163,7 @@ text-align:center;
 
 .titulooutsourcing p{
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
 }
 

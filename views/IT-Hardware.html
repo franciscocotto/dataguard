@@ -50,60 +50,64 @@ jQuery(document).ready(function($) {
 </head>
 <body>
 	<!-- Menu1 -->
-	<div class="navbar  pdd1 navbar-inverse navbar-fixed-top" role="navigation" id="menudesk">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" />
+		<div class="navbar navbar-inverse pdd1 navbar-fixed-top" role="navigation" id="pdd00">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = 'index.html'"><img class="resize" src="../images/logo_dataguard.png" />
+				</div>
+			</div>
+			<div class="navbar-collapse collapse pdb2" >
+				<ul class="nav navbar-nav">
+				<li><a href="../index.html">Home</a></li>
+					<li><a href="Company.html" class="active">Company</a></li>
+					<li class="dropdown">
+						<a href="#">Solutions</a> 
+						<div class="dropdown-content">
+							<a href="Outsourcing.html">IT Outsourcing</a>
+							<a href="IT-Hardware.html">IT Hardware</a>
+							<a href="Security.html">e-Identity &amp; Security</a>
+							<a href="Software-Factory.html">Software Factory</a>
+						</div>
+					</li>
+					<li> <a href="../index.html">News Feed</a></li>
+					<li><a href="#contactscroll" class="scroll">Contact Us</a> </li>
+				</ul>
 			</div>
 		</div>
-		<div class="collapse navbar-collapse pdd2">
-			<ul class="nav navbar-nav">
-				<li><a href="../index.html" class="Company_page">Home</a></li>
-				<li><a href="Company.html" class="Company_page">Company</a></li>
-			<li class="dropdown">
-				<a href="../index.html" class="dropbtn">Solutions</a> 
-					 <div class="dropdown-content">
-    					<a href="Outsourcing.html">Outsourcing</a>
-    					<a href="IT-Hardware.html">Hardware</a>
-   						<a href="Security.html">e-Identity</a>
-   						<a href="Software-Factory.html">Factory</a>
-  					</div>
-			</li>
-				<li> <a href="../index.html" class="scroll">News Feed</a></li>
-				<li><a href="#contact" class="scroll">Contact Us</a> </li>
-			</ul>
-		</div>
-	</div>
 	<!-- Fin-Menu1 -->
 	<!-- Menu2 -->
-	<div class="navbar  pdd1 navbar-inverse navbar-static-top" role="navigation" id="menusmart">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<div class="navbar-brand cursorr" style="margin-right:5%;"onclick="window.location = '../index.html'"><img class="resize" src="images/logo_dataguard.png" /></div>
+		<div class="navbar  pdd1 navbar-inverse navbar-static-top" role="navigation" id="menusmart">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand cursorr" style="margin-right:5%;" onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" /></div>
+			</div>
+			<div class="collapse navbar-collapse pdd3" id="nav-main">
+				<ul class="nav navbar-nav">
+					<a href="Company.html"><li>Company</li></a>
+					<a href="#outsourcing" class="scroll"><li> IT Outsourcing</li></a>
+					<a href="#hardware" class="scroll"><li> IT Hardware</li></a>
+					<a href="#identity" class="scroll"><li>e-Identity &amp; Security</li></a>
+					<a href="#factory" class="scroll"><li>Software Factory</li></a>
+					<a href="#myCarouselscroll" class="scroll"><li> News Feed</li></a>
+					<a href="#contactscroll" class="scroll"><li>Contact Us</li></a> 
+				</ul>
+			</div>
 		</div>
-		<div class="collapse navbar-collapse pdd3">
-			<ul class="nav navbar-nav">
-				<li><a href="views/Company.html" class="Company_page">Company</a></li>
-				<li><a href="#mrp" class="scroll">Solutions</a> </li>
-				<li> <a href="#myCarousel" class="scroll">News Feed</a></li>
-				<li><a href="#contact" class="scroll">Contact Us</a> </li>
-			</ul>
-		</div>
-	</div>
 	<!-- Fin-Menu2 -->
+
 	<!--Seccion1-StartPortada-->
-	<section class="portadacompany" style="background:#09435a;">
-		<div class="imgportadacompany" style="background-image:url(../images/img-4.jpg);">
+	<section class="portadacompany w100" style="background:#09435a;">
+		<div class="imgportadacompany w100" style="background-image:url(../images/img-4.jpg);">
 			<div class="titulohardware">
 				<h3>IT Hardware</h3>
 				<br>
