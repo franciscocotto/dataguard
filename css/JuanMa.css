@@ -34,6 +34,16 @@ width:100% !important;
     background-color: #464646;
 }
 
+.imgportadacompany{
+    float: left;
+    background-image: url(../images/img-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
 .ourservicesimg{
 height: 281px;
 float: left;
@@ -78,6 +88,26 @@ img.resize{
   font-size: 18px;
   margin-bottom: 0;
 }
+
+.pdb2 {
+  font-weight: lighter !important;
+}
+
+.pdb2 a{
+  border-top: 3px solid #000 !important; 
+  color: white !important;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.pdb2 a:hover{
+  border-top: 3px solid #ff2a2a !important;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
 
 /*----DropdwnMenu----*/
 
@@ -131,7 +161,12 @@ margin-right: 33%;
 
 }
 
+.pdb2 {
+  margin-top: 2%;
+margin-left: 33%;
+margin-right: 33%;
 
+}
 
 @media only screen and (min-width:1246px) and (max-width: 1460px)  {
 .pdd2 {
@@ -142,6 +177,14 @@ margin-right: 30%;
 
 }
 
+
+.pdb2 {
+  margin-top: 2%;
+margin-left: 20%;
+margin-right: 20%;
+
+
+}
 }
 
 
@@ -150,8 +193,12 @@ margin-right: 30%;
   margin-top: 2%;
 margin-left: 25%;
 margin-right: 25%;
+}
 
-
+.pdb2 {
+  margin-top: 2%;
+margin-left: 20%;
+margin-right: 20%;
 }
 
 .cursorr img{
@@ -166,8 +213,12 @@ margin-right: 25%;
   margin-top: 2%;
 margin-left: 20%;
 margin-right: 20%;
+}
 
-
+.pdb2 {
+  margin-top: 2%;
+margin-left: 15%;
+margin-right: 15%;
 }
 .cursorr img{
   width: 20%;
@@ -179,8 +230,12 @@ margin-right: 20%;
   margin-top: 2%;
 margin-left: 15%;
 margin-right: 15%;
+}
 
-
+.pdb2 {
+  margin-top: 2%;
+margin-left: 12%;
+margin-right: 12%;
 }
 .cursorr img{
   width: 20%;
@@ -692,16 +747,13 @@ footer {
 .contact-left-grid p span.c-mobi{
   background-position:0px 0px;
 }
-.contact-left-grid p span.c-twitter{
+.contact-left-grid p san.c-twitter{
   background-position: 0px -66px;
 }
 .contact-left-grid p span.c-pluse{
   background-position: 0px -132px;
 }
 
-.col-md-12 {
-  padding: 30px 0 0 0;
-}
 
 .contactregion{
   float: left;
@@ -722,7 +774,9 @@ footer {
   float: left;
 
 }
-
+.active{
+  border-bottom: 3px solid #ff2a2a !important;
+}
 
 /*----*/
 .contact-right-grid p,.contact-right-grid p a{
@@ -858,6 +912,39 @@ footer {
   font-weight: 600;
 }
 
+
+@media only screen and (min-width:360px) and (max-width: 646px)  {
+.titulocompany {
+    margin: auto;
+    padding-top: 150px;
+      padding-left: 0px;
+}
+
+.titulocompany h3{
+  color: white;
+  font-size: 5em;
+  font-weight: 600;
+  text-align: center;
+}
+}
+
+
+@media only screen and (min-width:0px) and (max-width: 359px)  {
+.titulocompany {
+    margin: auto;
+    padding-top: 150px;
+      padding-left: 0px;
+}
+
+.titulocompany h3{
+  color: white;
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+}
+}
+
+
 .infoback {
   float:left;
   width: 100%;
@@ -898,9 +985,8 @@ footer {
 }
 
 .imgmision img{
-  margin: 0 0 0 17% !important;
-  background-size: cover;
-  background-position: center;
+ display: block;
+ margin:0 auto;
 }
 
 .misioninfo {
@@ -937,10 +1023,11 @@ text-align:center;
 }
 
 .imgvision img{
-  margin: 0 0 0 5% !important;
-  background-size: cover;
-  background-position: center;
+ display: block;
+ margin:0 auto;
 }
+
+
 
 @media screen and (max-width: 768px) {
 .left-info-company {
@@ -974,15 +1061,21 @@ text-align:center;
   padding-bottom: 30px;
 }
 
+.nr{
+  padding-right:0 !important;
+}
+.left{
+  float: left;
+}
+
 .iconvalor {
   width: 33.3%;
   float: left;
 }
 
-.iconvalor img{
-  margin: 0 0 0 35% !important;
-  background-size: cover;
-  background-position: center;
+.iconvalorimg{
+ display: block;
+ margin:0 auto;
 }
 
 .iconvalor h3{
@@ -992,6 +1085,71 @@ text-align:center;
   font-size: 2.3em;
 }
 
+
+@media only screen and (min-width: 768px) and (max-width: 1144px){
+
+.iconvalor {
+  width: 33.3%;
+  float: left;
+}
+
+.iconvalorimg{
+   display: block;
+ margin:0 auto;
+}
+
+.iconvalor h3{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.3em;
+}
+
+}
+
+
+@media only screen and (min-width: 574px) and (max-width: 767px){
+
+.iconvalor {
+  width: 100%;
+  float: left;
+}
+
+.iconvalorimg{
+ display: block;
+ margin:0 auto;
+}
+
+.iconvalor h3{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.3em;
+}
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 573px){
+
+.iconvalor {
+  width: 100%;
+  float: left;
+}
+
+.iconvalorimg{
+  display: block;
+ margin:0 auto;
+}
+
+.iconvalor h3{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.3em;
+}
+
+} 
 .titulooutsourcing {
     margin: auto;
     padding-top: 150px;
