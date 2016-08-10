@@ -1017,17 +1017,27 @@ footer {
 }
 
 .imgmision {
-  width:100%;
-  margin: auto;
-  display: block;
+width:100%;
+padding: 10%;
+
 }
 
 .imgmision img{
  display: block;
+ width:100%;
  margin: auto;
- width: 100%;
 }
 
+.imgvision {
+padding: 10%;
+ width:100%;
+}
+
+.imgvision img{
+  width:100%;
+ display: block;
+ margin: auto;
+}
 
 
 
@@ -1080,20 +1090,6 @@ footer {
   padding-top: 50px;
   width: 50%; 
 }
-
-.imgvision {
-  float: left;
-  margin: auto;
-  display: block;
-}
-
-.imgvision img{
-    width: 100%;
-    display: block;
-    margin: auto;
-}
-
-
 
 @media screen and (max-width: 768px) {
 .left-info-company {
