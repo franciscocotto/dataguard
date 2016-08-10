@@ -1018,14 +1018,18 @@ footer {
 
 .imgmision {
   width:100%;
-  float: left;
-  display: inline-block;
+  margin: auto;
+  display: block;
 }
 
 .imgmision img{
  display: block;
- margin:0 auto;
+ margin: auto;
+ width: 100%;
 }
+
+
+
 
 .misioninfo {
   width:100%;
@@ -1078,14 +1082,15 @@ footer {
 }
 
 .imgvision {
-  width:100%;
   float: left;
-  display: inline-block;
+  margin: auto;
+  display: block;
 }
 
 .imgvision img{
- display: block;
- margin:0 auto;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 
