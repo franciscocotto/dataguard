@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = 'index.html'"><img class="resize" src="../images/logo_dataguard.png" />
+				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" />
 				</div>
 			</div>
 			<div class="navbar-collapse collapse pdb2" >
@@ -107,71 +107,89 @@ jQuery(document).ready(function($) {
 
 	<!--Seccion1-StartPortada-->
 	<header class="portada">
-		<section class="imgportadacompany w100">
+		<section class="imgportadaoutsourcing w100">
 			<article class="infoportada w100">
 				<div class="titulocompany">
 					<h3>Outsourcing</h3>
 				<br>
-				<p>Staffing</p>
-				<p>Headhunting</p>
+				<p><a href="#staff" class="scroll">Staffing</a></p>
+				<p><a href="#head" class="scroll">Headhunting</a></p>
 				</div>	
 			</article>
 		</section>
 	</header> 
 	<!--FinSeccion1-EndPortada-->
-	<!--FinSeccion1-EndPortada-->
 	<!--InicioSeccion2-info -->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class=" intro-out w100" style="float: left; padding: 50px">
-			<div class="left-info-cuadro-rojo">
-				<div class="cuadro-rojo" style="background: #b8252b">
-					<p>DATAGUARD offers personalized and flexible services for the public sector, the manufacturing business, multinational companies, telecommunication companies, banks, pharmaceuticals, etc.</p>
+	<section class="infoback" style="background: #e7e7e7">
+		<article class="w100">
+		<div class="left-info-company">
+			<div class="datosinfo">
+				<div class="left-info-cuadro-rojo">
+					<div class="cuadro-rojo" style="background: #b8252b">
+						<p>DATAGUARD offers personalized and flexible services for the public sector, the manufacturing business, multinational companies, telecommunication companies, banks, pharmaceuticals, etc.</p>
+					</div>
 				</div>
 			</div>
-			<div class="right-info-outsrc">
-				<div class="outsrc-info1">
-					<p>One of our business lines is the outsourcing service that includes staffing of IT personnel complemented with a head hunting service designed to help you acquire the best of the best.</p>
+		</div>
+		<div class="right-info-company">
+			<div class="datosinfo">
+			<div class="txtp">
+				<p>One of our business lines is the outsourcing service that includes staffing of IT personnel complemented with a head hunting service designed to help you acquire the best of the best.</p>
 				</div>
-			</div>
+		</div>
 		</article>
 	</section>
 	<!--finSeccion2-info -->
-	<!--InicioSeccion3-staffing -->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class="staffing w100" style="float: left; padding: 50px">
-			<div class="right-img-staffing">
-				<div class="img-esquema">
-					<img src="../images/esquema-staff.png">
-				</div>
-			</div>
-			<div class="left-info-staffing">
-				<div class="staffing-info">
+	<!--InicioSeccion3-info -->
+	<section class="infoback" style="background: #e7e7e7" id="staff">
+	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+		<article class="w100">
+		<div class="left-info-company">
+				<div class="left-info-cuadro-rojo">
+					<div class="staffing-info" style="padding-top:15%;">
 					<h3>Staffing</h3>
 					<br>
 					<p>We deliver the specialized recruitment that your Human Resources department needs, selecting and placing the specialized technician resource needed for an IT project. IT Staffng is the link between <q>the right person</q> and <q>the person the customer needs</q> in the area of Information Technology, or IT.</p>
+					</div>
 				</div>
 			</div>
+		<div class="right-info-company">
+			<div class="datosinfo">
+			<div class="txtp">
+				<div class="img-esquema">
+					<img src="../images/esquema-staff.png">
+				</div>
+				</div>
+		</div>
+		</div>
 		</article>
 	</section>
-	<!--finSeccion3-info-staffing-->
-	<!--InicioSeccion4-headh-->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class="hh w100" style="float: left; padding: 50px">
-			<div class="left-img-hh">
-				<div class="img-hh">
-					<img src="../images/headhunting.jpg">
-				</div>
-			</div>
-			<div class="right-info-hh">
-				<div class="hh-info">
-					<h3>Head Hunting</h3>
-					<br>
-					<p>We provide a quality head hunting service that helps companies select top notch personnel for their IT area.</p>
-				</div>
-			</div>
-		</article>
-	</section>
-	<!--finSeccion4-info-headh-->
+	<!--finSeccion3-info -->
+    <!--InicioSeccion4-info -->
+    <section class="infoback" style="background: #e7e7e7" id="head">
+    	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+    	<article class="w100">
+    		<div class="left-info-company">
+    			<div class="datosinfo">
+    				<div class="txtp">
+    					<div class="img-esquema">
+    						<img src="../images/headhunting.jpg">
+    					</div>
+    				</div>
+    			</div>
+    			</div>
+    			<div class="right-info-company">
+    				<div class="left-info-cuadro-rojo">
+    					<div class="staffing-info" style="padding-top:5%;">
+    						<h3>Head Hunting</h3>
+    						<br>
+    						<p>We provide a quality head hunting service that helps companies select top notch personnel for their IT area.</p>
+    					</div>
+    				</div>
+    			</div>
+    	</article>
+    </section>
+	<!--finSeccion4-info -->
 	<!--InicioSeccion5-suggest-->
 	<section class="infoback w100" style="background: #e7e7e7">
 		<article class="suggestions-title">
