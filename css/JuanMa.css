@@ -265,7 +265,7 @@ img.resize{
 .pdd3 li:hover{
   cursor: pointer;
   color: black !important;
-   background: white;
+  background: white;
 }
 
 .pdd3 li a:hover{
@@ -1350,6 +1350,8 @@ footer {
   width: 60%;
   margin: auto;
   display: block;
+  font-weight: lighter;
+  font-size: 23px;
 }
 .staffing-info h3{
   color: #454545;
@@ -1452,6 +1454,8 @@ margin: auto;
 
 .suggest1info p{
   color: #454545;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .right-suggest {
@@ -1468,6 +1472,8 @@ margin: auto;
   display: inline-block;
   float: left;
   margin: auto;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .suggest2info h3{
