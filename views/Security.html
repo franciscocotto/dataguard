@@ -9,14 +9,13 @@
 	<link rel="stylesheet" type="text/css" href="../css/default.css" />
 	<link rel="stylesheet" type="text/css" href="../css/component.css" />
 	<link rel="stylesheet" type="text/css" href="../css/JuanMa.css" />
-	<link rel="stylesheet" type="text/css" href="../css/Riivera.css" />
 	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 	<link href="../css/full-slider.css" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="../images/favicon.ico">
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </script>
 
@@ -38,8 +37,8 @@ $(function() {
 	});
 });
 </script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$(".scroll").click(function(event){		
@@ -59,19 +58,19 @@ jQuery(document).ready(function($) {
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = 'index.html'"><img class="resize" src="../images/logo_dataguard.png" />
+				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" />
 				</div>
 			</div>
 			<div class="navbar-collapse collapse pdb2" >
 				<ul class="nav navbar-nav">
 				<li><a href="../index.html">Home</a></li>
-					<li><a href="Company.html" class="active">Company</a></li>
+					<li><a href="Company.html">Company</a></li>
 					<li class="dropdown">
-						<a href="#">Solutions</a> 
+						<a href="#" class="active">Solutions</a> 
 						<div class="dropdown-content">
 							<a href="Outsourcing.html">IT Outsourcing</a>
 							<a href="IT-Hardware.html">IT Hardware</a>
-							<a href="Security.html">e-Identity &amp; Security</a>
+							<a href="#">e-Identity &amp; Security</a>
 							<a href="Software-Factory.html">Software Factory</a>
 						</div>
 					</li>
@@ -94,42 +93,49 @@ jQuery(document).ready(function($) {
 			</div>
 			<div class="collapse navbar-collapse pdd3" id="nav-main">
 				<ul class="nav navbar-nav">
+					<a href="../index.html"><li>Home</li></a>
 					<a href="Company.html"><li>Company</li></a>
-					<a href="#outsourcing" class="scroll"><li> IT Outsourcing</li></a>
-					<a href="#hardware" class="scroll"><li> IT Hardware</li></a>
-					<a href="#identity" class="scroll"><li>e-Identity &amp; Security</li></a>
-					<a href="#factory" class="scroll"><li>Software Factory</li></a>
-					<a href="#myCarouselscroll" class="scroll"><li> News Feed</li></a>
+					<a href="Outsourcing.html"><li> IT Outsourcing</li></a>
+					<a href="IT-Hardware.html"><li> IT Hardware</li></a>
+					<a href="Software-Factory.html"><li>Software Factory</li></a>
+					<a href="../index.html"><li> News Feed</li></a>
 					<a href="#contactscroll" class="scroll"><li>Contact Us</li></a> 
 				</ul>
 			</div>
 		</div>
 	<!-- Fin-Menu2 -->
-
-	<!--Seccion1-StartPortada_Riiver@-->
-	<section class="portadacompany w100" style="background:#09435a;">
-		<div class="imgportadacompany w100" style="background-image:url(../images/img-5.jpg);">
-			<div class="titulocompany">
-				<h3>e-Identity &amp; Security</h3>
+	<!--Seccion1-StartPortada-->
+	<header class="portada">
+		<section class="imgportadasecurity w100">
+			<article class="infoportada w100">
+				<div class="titulocompany">
+					<h3>e-Identity &amp; Security</h3>
+				<br>
+				</div>	
+			</article>
+		</section>
+	</header> 
+	<!--FinSeccion1-EndPortada-->
+		<!--InicioSeccion2-info -->
+	<section class="infoback" style="background: #e7e7e7">
+		<article class="w100">
+		<div class="left-info-company">
+			<div class="datosinfo">
+				<div class="left-info-cuadro-rojo">
+					<div class="cuadro-rojo" style="background: #b8252b">
+					<p>A robust system before any cloning or identity theft. Optimising the mechanisms of identification and access control in the electronic world.</p>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section> 
-	<!--FinSeccion1-EndPortada-->
-	<!--InicioSeccion2-info -->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class=" intro-out w100" style="float: left; padding: 50px">
-			<div class="left-info-cuadro-rojo">
-				<div class="cuadro-rojo" style="background: #b8252b">
-					<p>A robust system before any cloning or identity theft. Optimising the mechanisms of identification and access control in the electronic world.</p>
-				</div>
-			</div>
-			<div class="right-info-outsrc">
-				<div class="outsrc-info1">
-					<p>Biometric personal security system that protects the information capture biometric according to the different features found in the individual ( The fingerprints , iris, facial patterns and signatures ) in order to generate a single identification document with a certificate ( PKI ) .t</p>
-				</div>
-			</div>
+		<div class="right-info-company">
+			<div class="datosinfo">
+			<div class="txtp">
+				<p>Biometric personal security system that protects the information capture biometric according to the different features found in the individual ( The fingerprints , iris, facial patterns and signatures ) in order to generate a single identification document with a certificate ( PKI ) .t</p>
+		</div>
 		</article>
 	</section>
+	<!--finSeccion2-info -->
 
 	<section class="infoback w100" style="background: #e7e7e7">
 		<article class="suggestions-title">

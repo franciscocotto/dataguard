@@ -54,6 +54,38 @@ width:100% !important;
   background-color: #464646;
 }
 
+.imgportadahardware{
+  float: left;
+  background-image: url(../images/img-4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.imgportadasecurity{
+  float: left;
+  background-image: url(../images/img-5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.imgportadafactory{
+  float: left;
+  background-image: url(../images/img-6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+
+
 .ourservicesimg{
   height: 281px;
   float: left;
@@ -920,6 +952,7 @@ footer {
   color: white !important;
   font-size: 30px;
   font-weight: 300;
+  margin: 0 !important;
 }
 
 .infoportada a{
@@ -1039,7 +1072,9 @@ padding: 10%;
  margin: auto;
 }
 
-
+.pdd3 a{
+ color: white !important;
+}
 
 .misioninfo {
   width:100%;
@@ -1277,7 +1312,16 @@ padding: 10%;
 
   .staffing-info{
   padding-top: 0 !important;
+  float: none !important;
+  font-size: 20px !important;
 }
+
+ .staffing-info2{
+  padding-top: 0 !important;
+  float: none !important;
+  font-size: 20px !important;
+}
+
 
 
 .left-info-cuadro-rojo {
@@ -1310,7 +1354,16 @@ padding: 10%;
 @media screen and (max-width: 360px) {
 .staffing-info{
   padding-top: 0 !important;
+  float: none !important;
+  font-size: 20px !important;
 }
+
+.staffing-info2{
+  padding-top: 0 !important;
+  float: none !important;
+  font-size: 20px !important;
+}
+
 
 .left-info-cuadro-rojo {
     float: left;
@@ -1343,13 +1396,27 @@ padding: 10%;
 }
 
 .staffing-info{
-  width: 60%;
+  width: 80%;
+  float: right;
   margin: auto;
   display: block;
   font-weight: lighter;
   font-size: 23px;
 }
 .staffing-info h3{
+  color: #454545;
+  font-size: 35px;
+}
+
+.staffing-info2{
+  width: 80%;
+  float: left;
+  margin: auto;
+  display: block;
+  font-weight: lighter;
+  font-size: 23px;
+}
+.staffing-info2 h3{
   color: #454545;
   font-size: 35px;
 }
@@ -1566,7 +1633,7 @@ margin: auto;
 
 .suggest1info p{
   color: #454545;
-  font-size: 15px !important;
+  font-size: 17px !important;
 }
 
 .right-suggest {
@@ -1593,6 +1660,7 @@ margin: auto;
 
 .suggest2info p{
   color: #454545;
+  font-size: 17px !important;
 }
 
 }
@@ -1721,20 +1789,17 @@ margin: auto;
 .list-servers {
   width: 20%;
   float: left;
-  display: inline;
+  display: block;
 }
 
 .list-servers h3{
   float: left;
   color: white;
-  padding-left: 60px;
   width: 100%;
 }
 
 .list-servers ul{
-  float: left;
   color: white;
-  padding-left: 60px;
   width: 100%;
 }
 
@@ -1743,6 +1808,7 @@ margin: auto;
 }
 
 .list-servers a{
+
   color: white;
   padding-top: 10px;
 }
@@ -1764,5 +1830,125 @@ display: none;
 #contact2 {
 display: inline-block;
 
+}
+}
+
+@media only screen and (min-width:848px) and (max-width: 1055px)  {
+
+.list-servers {
+  width: 25%;
+  float: left;
+  display: block;
+  height: 250px;
+}
+
+.list-servers h3{
+  float: left;
+  color: white;
+  width: 100%;
+}
+
+.list-servers ul{
+  color: white;
+  width: 100%;
+}
+
+.list-servers li{
+  padding-top: 10px;
+}
+
+.list-servers a{
+  color: white;
+  padding-top: 10px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width: 847px)  {
+
+.list-servers {
+  width: 33.3%;
+  float: left;
+  display: block;
+  height: 200px;
+}
+
+.list-servers h3{
+  float: left;
+  color: white;
+  width: 100%;
+}
+
+.list-servers ul{
+  color: white;
+  width: 100%;
+}
+
+.list-servers li{
+  padding-top: 10px;
+}
+
+.list-servers a{
+  color: white;
+  padding-top: 10px;
+}
+}
+
+@media only screen and (min-width:360px) and (max-width: 767px)  {
+
+.list-servers {
+  width: 50%;
+  float: left;
+  display: block;
+  height: 200px;
+}
+
+.list-servers h3{
+  float: left;
+  color: white;
+  width: 100%;
+}
+
+.list-servers ul{
+  color: white;
+  width: 100%;
+}
+
+.list-servers li{
+  padding-top: 10px;
+}
+
+.list-servers a{
+  color: white;
+  padding-top: 10px;
+}
+}
+
+@media only screen and (min-width:0px) and (max-width: 437px)  {
+
+.list-servers {
+  width: 100%;
+  float: left;
+  display: block;
+  height: 200px;
+}
+
+.list-servers h3{
+  float: left;
+  color: white;
+  width: 100%;
+}
+
+.list-servers ul{
+  color: white;
+  width: 100%;
+}
+
+.list-servers li{
+  padding-top: 10px;
+}
+
+.list-servers a{
+  color: white;
+  padding-top: 10px;
 }
 }

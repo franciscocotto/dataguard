@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Software Factory</title>
+	<title>Factory Software</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Bootstrap core CSS -->
 	<link href="../css/bootstrap.css" rel="stylesheet">
@@ -9,14 +9,13 @@
 	<link rel="stylesheet" type="text/css" href="../css/default.css" />
 	<link rel="stylesheet" type="text/css" href="../css/component.css" />
 	<link rel="stylesheet" type="text/css" href="../css/JuanMa.css" />
-	<link rel="stylesheet" type="text/css" href="../css/Riivera.css" />
 	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 	<link href="../css/full-slider.css" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="../images/favicon.ico">
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </script>
 
@@ -38,8 +37,8 @@ $(function() {
 	});
 });
 </script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$(".scroll").click(function(event){		
@@ -59,20 +58,20 @@ jQuery(document).ready(function($) {
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = 'index.html'"><img class="resize" src="../images/logo_dataguard.png" />
+				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" />
 				</div>
 			</div>
 			<div class="navbar-collapse collapse pdb2" >
 				<ul class="nav navbar-nav">
 				<li><a href="../index.html">Home</a></li>
-					<li><a href="Company.html" class="active">Company</a></li>
+					<li><a href="Company.html">Company</a></li>
 					<li class="dropdown">
-						<a href="#">Solutions</a> 
+						<a href="#" class="active">Solutions</a> 
 						<div class="dropdown-content">
 							<a href="Outsourcing.html">IT Outsourcing</a>
 							<a href="IT-Hardware.html">IT Hardware</a>
 							<a href="Security.html">e-Identity &amp; Security</a>
-							<a href="Software-Factory.html">Software Factory</a>
+							<a href="#">Software Factory</a>
 						</div>
 					</li>
 					<li> <a href="../index.html">News Feed</a></li>
@@ -94,134 +93,159 @@ jQuery(document).ready(function($) {
 			</div>
 			<div class="collapse navbar-collapse pdd3" id="nav-main">
 				<ul class="nav navbar-nav">
+					<a href="../index.html"><li>Home</li></a>
 					<a href="Company.html"><li>Company</li></a>
-					<a href="#outsourcing" class="scroll"><li> IT Outsourcing</li></a>
-					<a href="#hardware" class="scroll"><li> IT Hardware</li></a>
-					<a href="#identity" class="scroll"><li>e-Identity &amp; Security</li></a>
-					<a href="#factory" class="scroll"><li>Software Factory</li></a>
-					<a href="#myCarouselscroll" class="scroll"><li> News Feed</li></a>
+					<a href="Outsourcing.html"><li> IT Outsourcing</li></a>
+					<a href="IT-Hardware.html"><li> IT Hardware</li></a>
+					<a href="Security.html"><li>e-Identity &amp; Security</li></a>
+					<a href="../index.html"><li> News Feed</li></a>
 					<a href="#contactscroll" class="scroll"><li>Contact Us</li></a> 
 				</ul>
 			</div>
 		</div>
 	<!-- Fin-Menu2 -->
-
-	<!--Seccion1-StartPortada_Riiver@-->
-	<section class="portadacompany w100" style="background:#09435a;">
-		<div class="imgportadacompany w100" style="background-image:url(../images/img-6.jpg);">
-			<div class="titulooutsourcing">
-				<h3>Software Factory</h3>
-				
-				<h4><p>Web Application Development
-				<br>Microsoft Application Development</br>
-				Application Development for Mobile Devices
-				<br>Graphic Design and Digital Video Animation</br></p></h4>
-			</div>
-		</div>
-	</section> 
+		<!--Seccion1-StartPortada-->
+	<header class="portada">
+		<section class="imgportadafactory w100">
+			<article class="infoportada w100">
+				<div class="titulocompany">
+					<h3>Software Factory</h3>
+				<br>
+				<p><a href="#web" class="scroll">Web Application Development</a></p>
+				<p><a href="#mic" class="scroll">Microsoft Application Development</a></p>
+				<p><a href="#app" class="scroll">Application Development for Mobile Devices</a></p>
+				<p><a href="#gra" class="scroll">Graphic Design and Digital Video Animation</a></p>
+				</div>	
+			</article>
+		</section>
+	</header> 
 	<!--FinSeccion1-EndPortada-->
+
 <!--InicioSeccion2-info -->
 	<section class="infoback" style="background: #e7e7e7">
 		<article class="w100">
 		<div class="left-info-company">
-	       <div class="left-img-rojo">
-				<p>We develop applications that adapt to our client's needs while innovating and always using the utmost modern and least expensive technology.</p>
+			<div class="datosinfo">
+				<div class="left-info-cuadro-rojo">
+					<div class="cuadro-rojo" style="background: #b8252b">
+						<p>We develop applications that adapt to our client's needs while innovating and always using the utmost modern and least expensive technology.</p>
+					</div>
+				</div>
 			</div>
-	
-
 		</div>
 		<div class="right-info-company">
-			<div class="riverainforight">
-				<p>One of the most important branches of DataGuard's business is the adapted application development, based on your needs and preferences We adapt the system to the functions you're needing and the desing you prefer.</p>
-			</div>	
-			</div>
-	    </article>
+			<div class="datosinfo">
+			<div class="txtp">
+					<p>One of the most important branches of DataGuard's business is the adapted application development, based on your needs and preferences We adapt the system to the functions you're needing and the desing you prefer.</p>
+		</div>
+		</article>
 	</section>
 	<!--finSeccion2-info -->
+
+
 	<!--InicioSeccion3-info -->
-	<section class="infoback" style="background: #e7e7e7">
+	<section class="infoback" style="background: #e7e7e7" id="web">
+	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
 		<article class="w100">
-		<div class="left-info-company">
-	<div class="riverainfoleft">
-				<h3>Web Aplication <br/>Development</h3>
+		<div class="left-info-company"  style="padding-top:2% !important;">
+				<div class="left-info-cuadro-rojo">
+					<div class="staffing-info">
+					<h3>Web Aplication <br/>Development</h3>
 				<h4>Java EE, Oracle, Spring MVC, Struts, PHP</h4>
 				<br>
 				<p>Spring MVC is an application developing framework to create Java applications on web. Recognized businesses and organizations around the world use this framework for the development of their projects, under international quality standards. PHP is one of the programing languages that's most used around the world qand it's focused on web appliction development.</p>
+					</div>
+				</div>
 			</div>
-	
-
-		</div>
 		<div class="right-info-company">
-			<div class="imgvision">
-				<img src="../images/empresa.jpg">
-			</div>	
-			</div>
-	    </article>
+			<div class="datosinfo">
+			<div class="txtp">
+				<div class="img-esquema">
+						<img src="../images/empresa.jpg">
+				</div>
+				</div>
+		</div>
+		</div>
+		</article>
 	</section>
 	<!--finSeccion3-info -->
-		<!--InicioSeccion4-info -->
-	<section class="infoback" style="background: #e7e7e7">
-		<article class="w100">
-		<div class="left-info-company">
-	
-			<div class="imgmision">
-				<img src="../images/lupa.jpg">
-			</div>	
-
-		</div>
-		<div class="right-info-company">
-			<div class="riverainforight">
-				<h3>Microsoft Application<br/>Development</h3>
+    <!--InicioSeccion4-info -->
+    <section class="infoback" style="background: #e7e7e7" id="mic">
+    	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+    	<article class="w100">
+    		<div class="left-info-company">
+    			<div class="datosinfo">
+    				<div class="txtp">
+    					<div class="img-esquema">
+    						<img src="../images/headhunting.jpg">
+    					</div>
+    				</div>
+    			</div>
+    			</div>
+    			<div class="right-info-company">
+    				<div class="left-info-cuadro-rojo">
+    					<div class="staffing-info2" style="padding-top:0%;">
+    				<h3 style="margin-top:0 !important;">Microsoft Application<br/>Development</h3>
 				<h4>ASP.NET, C#, Visual Basic.</h4>
 				<br>
 				<p>A popular platform for the development of Window applications, Windows Store, Windows Phone, Windows Server and Microsoft Azure.NET Framework platform includes C# and Visual Basic language, which can provide the most.</p>
-			</div>
-	
-			</div>
-	    </article>
-	</section>
+    					</div>
+    				</div>
+    			</div>
+    	</article>
+    </section>
 	<!--finSeccion4-info -->
-	<!--InicioSeccion5-info -->
-	<section class="infoback" style="background: #e7e7e7">
+		<!--InicioSeccion3-info -->
+	<section class="infoback" style="background: #e7e7e7" id="app">
+	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
 		<article class="w100">
-		<div class="left-info-company">
-	<div class="riverainfoleft">
-				<h3>Aplication <br/>Development for<br/> Mobile Devices</h3>
+		<div class="left-info-company"  style="padding-top:2% !important;">
+				<div class="left-info-cuadro-rojo">
+					<div class="staffing-info">
+			<h3  style="margin-top:0 !important;">Aplication <br/>Development for<br/> Mobile Devices</h3>
 				<br>
-				<p>Our custom-made Mobile Device Development Service's goal is to satisfy your business or project's concrete needs. We develop applications through a vast number of solutions to help businesses and organizations advance in the new technological era of smartphones and mobile devices; our services reach the following platforms:<br/> I Phone, Ipad, Android, Blackberry.</p>
+				<p>Our custom-made Mobile Device Development Service's goal is to satisfy your business or project's concrete needs. We develop applications through a vast number of solutions to help businesses and organizations advance in the new technological era of smartphones and mobile devices; our services reach the following platforms:<br/><br> <b>I Phone, Ipad, Android, Blackberry.</b></p>
+					</div>
+				</div>
 			</div>
-	
-
-		</div>
 		<div class="right-info-company">
-			<div class="imgvision">
-				<img src="../images/flatfactory.jpg">
-			</div>	
-			</div>
-	    </article>
+			<div class="datosinfo">
+			<div class="txtp">
+				<div class="img-esquema">
+							<img src="../images/flatfactory.jpg">
+				</div>
+				</div>
+		</div>
+		</div>
+		</article>
 	</section>
-	<!--finSeccion5-info -->
-	<!--InicioSeccion6-info -->
-	<section class="infoback" style="background: #e7e7e7">
-		<article class="w100">
-		<div class="left-info-company">
-	
-			<div class="imgmision">
-				<img src="../images/digico.jpg">
-			</div>	
-
-		</div>
-		<div class="right-info-company">
-			<div class="riverainforight">
-				<h3>Graphic Design and<br/>Digital Video Animation</h3>
+	<!--finSeccion3-info -->
+	    <!--InicioSeccion4-info -->
+    <section class="infoback" style="background: #e7e7e7" id="gra">
+    	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+    	<article class="w100">
+    		<div class="left-info-company">
+    			<div class="datosinfo">
+    				<div class="txtp">
+    					<div class="img-esquema">
+    							<img src="../images/digico.jpg">
+    					</div>
+    				</div>
+    			</div>
+    			</div>
+    			<div class="right-info-company">
+    				<div class="left-info-cuadro-rojo">
+    					<div class="staffing-info2" style="padding-top:0%;">
+    				<h3  style="margin-top:0 !important;">Graphic Design and<br/>Digital Video Animation</h3>
 				<br>
 				<p>We are professionals who work firsthand with crativity and innovation with the use of graphic resources and technical means for the aesthetic development of potencial and current customers; We employ methods of analysis and market research to be aware of the latest trends in design and apply them.</p>
-			</div>
-	
-			</div>
-	    </article>
-	</section>
-	<!--finSeccion6-info -->
+    					</div>
+    				</div>
+    			</div>
+    	</article>
+    </section>
+	<!--finSeccion4-info -->
+	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
 	<!--InicioSeccion7-headh-->
 	<section class="infoback w100" style="background: #e7e7e7">
 		<article class="suggestions-title">

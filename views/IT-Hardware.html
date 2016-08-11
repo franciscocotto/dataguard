@@ -14,8 +14,8 @@
 	<link rel="shortcut icon" href="../images/favicon.ico">
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </script>
 
@@ -37,8 +37,8 @@ $(function() {
 	});
 });
 </script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$(".scroll").click(function(event){		
@@ -58,18 +58,18 @@ jQuery(document).ready(function($) {
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = 'index.html'"><img class="resize" src="../images/logo_dataguard.png" />
+				<div class="navbar-brand cursorr scroll" style="margin-right:5%;" onclick="window.location = '../index.html'"><img class="resize" src="../images/logo_dataguard.png" />
 				</div>
 			</div>
 			<div class="navbar-collapse collapse pdb2" >
 				<ul class="nav navbar-nav">
 				<li><a href="../index.html">Home</a></li>
-					<li><a href="Company.html" class="active">Company</a></li>
+					<li><a href="Company.html">Company</a></li>
 					<li class="dropdown">
-						<a href="#">Solutions</a> 
+						<a href="#" class="active">Solutions</a> 
 						<div class="dropdown-content">
 							<a href="Outsourcing.html">IT Outsourcing</a>
-							<a href="IT-Hardware.html">IT Hardware</a>
+							<a href="#">IT Hardware</a>
 							<a href="Security.html">e-Identity &amp; Security</a>
 							<a href="Software-Factory.html">Software Factory</a>
 						</div>
@@ -93,117 +93,155 @@ jQuery(document).ready(function($) {
 			</div>
 			<div class="collapse navbar-collapse pdd3" id="nav-main">
 				<ul class="nav navbar-nav">
+					<a href="../index.html"><li>Home</li></a>
 					<a href="Company.html"><li>Company</li></a>
-					<a href="#outsourcing" class="scroll"><li> IT Outsourcing</li></a>
-					<a href="#hardware" class="scroll"><li> IT Hardware</li></a>
-					<a href="#identity" class="scroll"><li>e-Identity &amp; Security</li></a>
-					<a href="#factory" class="scroll"><li>Software Factory</li></a>
-					<a href="#myCarouselscroll" class="scroll"><li> News Feed</li></a>
+					<a href="Outsourcing.html"><li> IT Outsourcing</li></a>
+					<a href="Security.html"><li>e-Identity &amp; Security</li></a>
+					<a href="Software-Factory.html"><li>Software Factory</li></a>
+					<a href="../index.html"><li> News Feed</li></a>
 					<a href="#contactscroll" class="scroll"><li>Contact Us</li></a> 
 				</ul>
 			</div>
 		</div>
 	<!-- Fin-Menu2 -->
-
 	<!--Seccion1-StartPortada-->
-	<section class="portadacompany w100" style="background:#09435a;">
-		<div class="imgportadacompany w100" style="background-image:url(../images/img-4.jpg);">
-			<div class="titulohardware">
-				<h3>IT Hardware</h3>
+	<header class="portada">
+		<section class="imgportadahardware w100">
+			<article class="infoportada w100">
+				<div class="titulocompany">
+					<h3>IT Hardware</h3>
 				<br>
-				<p>Servers<br> Networking<br> Storage<br> Rentals</p>
-			</div>
-		</div>
-	</section> 
+				<p><a href="#server" class="scroll">Servers</a></p>
+				<p><a href="#net" class="scroll">Networking</a></p>
+				<p><a href="#store" class="scroll">Storage</a></p>
+				<p><a href="#rental" class="scroll">Rentals</a></p>
+				</div>	
+			</article>
+		</section>
+	</header> 
 	<!--FinSeccion1-EndPortada-->
 	<!--InicioSeccion2-info -->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class=" intro-out w100" style="float: left; padding: 50px">
-			<div class="left-info-cuadro-rojo">
-				<div class="cuadro-rojo" style="background: #b8252b">
-					<p>With more than $10 Million in inventory from major IT manufacturers like IBM, Dell, HP, Sun/Oracle, Cisco, EMC, NetApp, and others, we are confident that we have the equipment you need, when you need it.</p>
+	<section class="infoback" style="background: #e7e7e7">
+		<article class="w100">
+		<div class="left-info-company">
+			<div class="datosinfo">
+				<div class="left-info-cuadro-rojo">
+					<div class="cuadro-rojo" style="background: #b8252b">
+						<p>With more than $10 Million in inventory from major IT manufacturers like IBM, Dell, HP, Sun/Oracle, Cisco, EMC, NetApp, and others, we are confident that we have the equipment you need, when you need it.</p>
+					</div>
 				</div>
 			</div>
-			<div class="right-info-outsrc">
-				<div class="hardw-info1">
-					<p>We provide distribution of new and used IT hardware. As a <q>Channel Alternative,</q> our independent status means that we are not tied to any OEM discount categories, which gives us access to the global marketplace and the best possible pricing. We carry everything from legacy equipment, to N-1, to the latest and greatest equipment just released by the manufacturer.</p>
-				</div>
-			</div>
+		</div>
+		<div class="right-info-company">
+			<div class="datosinfo">
+			<div class="txtp">
+				<p>We provide distribution of new and used IT hardware. As a <q>Channel Alternative,</q> our independent status means that we are not tied to any OEM discount categories, which gives us access to the global marketplace and the best possible pricing. We carry everything from legacy equipment, to N-1, to the latest and greatest equipment just released by the manufacturer.</p>
+		</div>
 		</article>
 	</section>
 	<!--finSeccion2-info -->
-	<!--InicioSeccion3-servers -->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class="servers w100" style="float: left; padding: 50px">
-			<div class="right-img-staffing">
-				<div class="img-servers">
-					<img src="../images/IMG_3540.jpg">
-				</div>
-			</div>
-			<div class="left-info-servers">
-				<div class="staffing-info">
+
+	<!--InicioSeccion3-info -->
+	<section class="infoback" style="background: #e7e7e7" id="server">
+	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+		<article class="w100">
+		<div class="left-info-company"  style="padding-top:2% !important;">
+				<div class="left-info-cuadro-rojo">
+					<div class="staffing-info">
 					<h3>Servers</h3>
 					<br>
 					<p>We keep an extensive inventory of servers, storage and networking equipment from leading manufacturers such as Cisco	&#174;, IBM	&#174;, HP	&#174; and Sun	&#174;. This means we have the server you&#39;re searching for ready for immediate deployment, but more importantly, we also have the best solution for your specific IT environment.</p>
+					</div>
 				</div>
 			</div>
+		<div class="right-info-company">
+			<div class="datosinfo">
+			<div class="txtp">
+				<div class="img-esquema">
+						<img src="../images/IMG_3540.jpg">
+				</div>
+				</div>
+		</div>
+		</div>
 		</article>
 	</section>
-	<!--finSeccion3-info-servers-->
-	<!--InicioSeccion4-net-->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class="networking w100" style="float: left; padding: 50px">
-			<div class="left-img-net">
-				<div class="img-net">
-					<img src="../images/networking-img.jpg">
-				</div>
-			</div>
-			<div class="right-info-hh">
-				<div class="hh-info">
-					<h3>Networking</h3>
+	<!--finSeccion3-info -->
+    <!--InicioSeccion4-info -->
+    <section class="infoback" style="background: #e7e7e7" id="net">
+    	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+    	<article class="w100">
+    		<div class="left-info-company">
+    			<div class="datosinfo">
+    				<div class="txtp">
+    					<div class="img-esquema">
+    						<img src="../images/networking-img.jpg">
+    					</div>
+    				</div>
+    			</div>
+    			</div>
+    			<div class="right-info-company">
+    				<div class="left-info-cuadro-rojo">
+    					<div class="staffing-info2" style="padding-top:0%;">
+    					<h3>Networking</h3>
 					<br>
 					<p>Our impressive inventory of networking equipment, such as Cisco Switches, Cisco Routers, F5 networking appliances, Juniper networking equipment, and other top-manufacturer machines, allows you to easily add infrastructure capacity or deploy security.</p>
-				</div>
-			</div>
-		</article>
-	</section>
-	<!--finSeccion4-info-headh-->
-	<!--InicioSeccion5-storage-->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class="servers w100" style="float: left; padding: 50px">
-			<div class="right-img-staffing">
-				<div class="img-servers">
-					<img src="../images/storage-img.jpg">
-				</div>
-			</div>
-			<div class="left-info-servers">
-				<div class="staffing-info">
-					<h3>Storage</h3>
+    					</div>
+    				</div>
+    			</div>
+    	</article>
+    </section>
+	<!--finSeccion4-info -->
+		<!--InicioSeccion3-info -->
+	<section class="infoback" style="background: #e7e7e7" id="store">
+	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+		<article class="w100">
+		<div class="left-info-company"  style="padding-top:2% !important;">
+				<div class="left-info-cuadro-rojo">
+					<div class="staffing-info">
+				<h3>Storage</h3>
 					<br>
 					<p>Data is the lifeblood of your company. Keeping it safe and accessible is ours. The experts at DataGaurd IT work with you to design and implement SAN, NAS and direct attached storage solutions customized to meet your evolving storage needs. While storage needs double approximately every two years, you can rest, we got you covered.</p>
+					</div>
 				</div>
 			</div>
+		<div class="right-info-company">
+			<div class="datosinfo">
+			<div class="txtp">
+				<div class="img-esquema">
+						<img src="../images/storage-img.jpg">
+				</div>
+				</div>
+		</div>
+		</div>
 		</article>
 	</section>
-	<!--finSeccion5-storage-->
-	<!--InicioSeccion6-rental-->
-	<section class="infoback w100" style="background: #e7e7e7">
-		<article class="networking w100" style="float: left; padding: 50px">
-			<div class="left-img-net">
-				<div class="img-net">
-					<img src="../images/rentals-img.jpg">
-				</div>
-			</div>
-			<div class="right-info-hh">
-				<div class="hh-info">
-					<h3>Rentals</h3>
+	<!--finSeccion3-info -->
+	    <!--InicioSeccion4-info -->
+    <section class="infoback" style="background: #e7e7e7" id="rental">
+    	<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
+    	<article class="w100">
+    		<div class="left-info-company">
+    			<div class="datosinfo">
+    				<div class="txtp">
+    					<div class="img-esquema">
+    							<img src="../images/rentals-img.jpg">
+    					</div>
+    				</div>
+    			</div>
+    			</div>
+    			<div class="right-info-company">
+    				<div class="left-info-cuadro-rojo">
+    					<div class="staffing-info2" style="padding-top:0%;">
+    				<h3>Rentals</h3>
 					<br>
 					<p>With over $25 million in inventory from major IT manufacturers, such as IBM, Dell, HP, Sun, and Cisco, we&#39;re confident that we have the IT hardware you need. We pride ourselves on our diverse array of hardware, networking, and storage equipment; and you won&#39;t find our quality of customer service anywhere else.</p>
-				</div>
-			</div>
-		</article>
-	</section>
-	<!--finSeccion6-rental-->
+    					</div>
+    				</div>
+    			</div>
+    	</article>
+    </section>
+	<!--finSeccion4-info -->
+		<div style="background:#e7e7e7; width:100%; padding:2%; float:left;"></div>
 	<!--inicioseccion7-store-->
 	<section class="infoback w100" style="background: #242c57">
 		<article class="populartitle">
@@ -218,7 +256,7 @@ jQuery(document).ready(function($) {
 				</div>
 			</div>
 		</article>
-		<article class="pop-products w100" style="float:left; padding: 50px 0 50px 0;">
+		<article class="pop-products w100" style="float:left; padding: 50px;">
 			<div class="list-servers">
 				<a href="http://www.centricsit.com/product-category/servers/"><h3>Servers</h3></a>
 				<ul style="list-style: none;">
@@ -226,17 +264,6 @@ jQuery(document).ready(function($) {
 					<li><a href="http://www.centricsit.com/product-category/servers/sun-oracle-servers/">Oracle servers</a></li>
 					<li><a href="http://www.centricsit.com/product-category/servers/ibm-servers/">IBM servers</a></li>
 					<li><a href="http://www.centricsit.com/product-category/servers/dell-servers/">Dell servers</a></li>
-				</ul>
-			</div>
-			<div class="list-servers">
-				<a href="http://www.centricsit.com/product-category/storage/"><h3>Storage</h3></a>
-				<ul style="list-style: none;">
-					<li><a href="http://www.centricsit.com/product-category/storage/hp-storage/">HP storage</a></li>
-					<li><a href="http://www.centricsit.com/product-category/storage/sun-oracle-storage/">Oracle storage</a></li>
-					<li><a href="http://www.centricsit.com/product-category/storage/ibm-storage/">IBM storage</a></li>
-					<li><a href="http://www.centricsit.com/product-category/storage/dell-storage/">Dell storage</a></li>
-					<li><a href="http://www.centricsit.com/product-category/storage/netapp-storage/">NetApp storage</a></li>
-					<li><a href="http://www.centricsit.com/product-category/storage/emc-storage/">EMC storage</a></li>
 				</ul>
 			</div>
 			<div class="list-servers">
@@ -262,6 +289,17 @@ jQuery(document).ready(function($) {
 					<li><a href="http://www.centricsit.com/product-category/support-services/server-support/">Server support</a></li>
 					<li><a href="http://www.centricsit.com/product-category/support-services/networking-support/">Networking support</a></li>
 					<li><a href="http://www.centricsit.com/product-category/support-services/storage-support/">Storage support</a></li>
+				</ul>
+			</div>
+						<div class="list-servers">
+				<a href="http://www.centricsit.com/product-category/storage/"><h3>Storage</h3></a>
+				<ul style="list-style: none;">
+					<li><a href="http://www.centricsit.com/product-category/storage/hp-storage/">HP storage</a></li>
+					<li><a href="http://www.centricsit.com/product-category/storage/sun-oracle-storage/">Oracle storage</a></li>
+					<li><a href="http://www.centricsit.com/product-category/storage/ibm-storage/">IBM storage</a></li>
+					<li><a href="http://www.centricsit.com/product-category/storage/dell-storage/">Dell storage</a></li>
+					<li><a href="http://www.centricsit.com/product-category/storage/netapp-storage/">NetApp storage</a></li>
+					<li><a href="http://www.centricsit.com/product-category/storage/emc-storage/">EMC storage</a></li>
 				</ul>
 			</div>
 		</article>
