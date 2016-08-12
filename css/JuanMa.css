@@ -1952,3 +1952,25 @@ display: inline-block;
   padding-top: 10px;
 }
 }
+
+.titulocar1 {
+  float: right;
+  padding: 300px 100px 0 0;
+  width: 50%;
+}
+
+.titulocar1 h3 {
+  color: white;
+  font-size: 45px;
+}
+
+.titulocar2 {
+  float: left;
+  padding: 50px 0 0 200px;
+  width: 50%;
+}
+
+.titulocar2 h3 {
+  color: white;
+  font-size: 45px;
+}
